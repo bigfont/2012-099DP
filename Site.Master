@@ -5,10 +5,10 @@
 <head runat="server">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dave's Blasting</title>      
-    <link href="/assets-8/css/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/assets-8/css/responsive.css" rel="stylesheet" type="text/css" />
-    <link href="/assets-8/css/bigfont.css" rel="stylesheet" type="text/css" />
+    <title>Dave's Blasting</title>
+    <link href="/assets-9/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="/assets-9/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="/assets-9/css/bigfont.css" rel="stylesheet" type="text/css" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -69,15 +69,15 @@
                         <div class="carousel-inner">
                             <div class="active item">
                                 <%--<div class="active item img-polaroid img-rounded">--%>
-                                <img src="assets-8/img/main-slideshow-1.jpg" />
+                                <img src="../assets-9/img/main-slideshow-1.jpg" />
                             </div>
                             <div class="item">
                                 <%--<div class="item img-polaroid img-rounded">--%>
-                                <img src="assets-8/img/main-slideshow-2.jpg" />
+                                <img src="../assets-9/img/main-slideshow-2.jpg" />
                             </div>
                             <div class="item">
                                 <%--<div class="item img-polaroid img-rounded">--%>
-                                <img src="assets-8/img/main-slideshow-3.jpg" />
+                                <img src="../assets-9/img/main-slideshow-3.jpg" />
                             </div>
                         </div>
                     </div>
@@ -89,12 +89,12 @@
                 <asp:ContentPlaceHolder ID="cphHeader" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
-        </div>        
+        </div>
     </header>
     <%--Main bootstrap container--%>
     <div id="main-content" class="container-fluid">
         <div class="row-fluid">
-            <%--Column--%>
+            <%--Column--%>            
             <div class="span5 affix-container">
                 <nav id="sub-nav" data-offset-top="260" data-spy="affix">
                     <ul class="nav nav-tabs nav-stacked">
@@ -124,12 +124,12 @@
             </div>
             <div class="span7">
                 <a href="#top">Return to Top</a>
-            </div>            
+            </div>
         </div>
     </div>
-    <script src="/assets-8/js/01-jquery.js" type="text/javascript"></script>
-    <script src="/assets-8/js/02-bootstrap.js" type="text/javascript"></script>
-    <script src="/assets-8/js/03-bigfont.js" type="text/javascript"></script>
-    <script src="/assets-8/js/04-holder.js" type="text/javascript"></script>
+    <script src="/assets-9/js/01-jquery.js" type="text/javascript"></script>
+    <script src="/assets-9/js/02-bootstrap.js" type="text/javascript"></script>
+    <script src="/assets-9/js/03-bigfont.js" type="text/javascript"></script>
+    <script src="/assets-9/js/04-holder.js" type="text/javascript"></script>
 </body>
 </html>

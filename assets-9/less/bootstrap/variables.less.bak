@@ -6,11 +6,13 @@
 // Global values
 // --------------------------------------------------
 
-// BigFont Color Scheme
-@primaryColor:			#A60000; // red
-@secondaryColorA:		#A64B00; // orange
-@secondaryColorB:		#006363; // blue
-@complementaryColor:	#008500; // green
+// BigFont Tetrad Color Scheme based on Blaze Orange (#FF6600)
+// without the complementaryColor, because four is too many for me.
+// From http://colorschemedesigner.com/
+
+@primaryColor:			#FF6600; // blaze orange
+@secondaryColorA:		@yellow; // mild orange
+@secondaryColorB:		#104BA9; // dark blue
 
 
 // Grays
@@ -30,7 +32,7 @@
 @blueDark:              #0064cd;
 @green:                 #46a546;
 @red:                   #9d261d;
-@yellow:                #FFD700; // gold
+@yellow:                #FDFF00;
 @orange:                #f89406;
 @pink:                  #c3325f;
 @purple:                #7a43b6;
@@ -44,8 +46,8 @@
 
 // Links
 // -------------------------
-@linkColor:             lighten(@complementaryColor, 5%);
-@linkColorHover:        darken(@linkColor, 5%);
+@linkColor:             lighten(@secondaryColorB, 10%);
+@linkColorHover:        darken(@linkColor, 10%);
 
 
 // Typography
@@ -61,7 +63,7 @@
 
 @headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
 @headingsFontWeight:    bold;    // instead of browser default, bold
-@headingsColor:         @secondaryColorB; // empty to use BS default, @textColor
+@headingsColor:         darken(@primaryColor, 5%); // empty to use BS default, @textColor
 
 
 // Component sizing
@@ -134,8 +136,8 @@
 @dropdownLinkColorHover:        @white;
 @dropdownLinkColorActive:       @dropdownLinkColor;
 
-@dropdownLinkBackgroundActive:  lighten(@secondaryColorB, 15%);
-@dropdownLinkBackgroundHover:   @dropdownLinkBackgroundActive;
+@dropdownLinkBackgroundActive:  @primaryColor;
+@dropdownLinkBackgroundHover:   @secondaryColorA;
 
 
 
@@ -198,7 +200,7 @@
 @navbarLinkBackgroundHover:       @navbarBackground;
 @navbarLinkBackgroundActive:      @navbarBackground;
 
-@navbarBrandColor:                @yellow;
+@navbarBrandColor:                @black;
 
 // Inverted navbar
 @navbarInverseBackground:                #111111;

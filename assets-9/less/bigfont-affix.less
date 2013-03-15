@@ -3,8 +3,10 @@
 div.affix-container
 {
 	// When the div's content takes on fixed positioning, the div becomes empty and thus takes up no space.
-	// So, we give it min-height:1px ensure it still takes up width to hold its column.
-	min-height:1px;		
+	// So, we give it min-height:1px ensure it still takes up width to hold its column.	
+	margin:0px;
+	padding:0px;
+	min-height:1px !important;		
 }
 nav#sub-nav > ul.nav-tabs
 {	
@@ -13,7 +15,7 @@ nav#sub-nav > ul.nav-tabs
 	i.icon-chevron-right 
 	{ 
 		float:right; 
-		display:block; 
+		display:block;
 		margin-top: 12px;		
 		opacity:0.25; // this is an icon; its opacity fails on IE 8; that's OK.
 	}
@@ -63,7 +65,7 @@ nav#sub-nav > ul.nav-tabs
 		}
 		&.active > a
 		{
-			background:#74C4AC;
+			background:@secondaryColorA;
 			color:@black;
 		}
 		img 
@@ -82,7 +84,9 @@ nav#sub-nav > ul.nav-tabs
 {
 	div.affix-container
 	{
-		padding-top:@mainNavbarStaticCorrection;				
+		// use margin not padding,
+		// because padding is NOT compatile with min-height!!
+		margin-top:@mainNavbarStaticCorrection;		
 	}
 	nav.affix
 	{
@@ -97,7 +101,9 @@ nav#sub-nav > ul.nav-tabs
 {	
 	div.affix-container
 	{
-		padding-top:@mainNavbarStaticCorrection;				
+		// use margin not padding,
+		// because padding is NOT compatile with min-height!!
+		margin-top:@mainNavbarStaticCorrection;		
 	}
 	nav.affix
 	{
@@ -122,19 +128,8 @@ nav#sub-nav > ul.nav-tabs
 	}
 	div.affix-container
 	{
-		padding-top:10px;
-	}
-}
-
-/* Specific Devices
-++++++++++++++++++++++++++++++++++++++++++ */
-
-/* Larger screens
-------------------------- */
-@media (min-width:1200px)
-{
-	nav.affix
-	{
-		.bigfont-spanX(@navSpanX, @fluidGridColumnWidth1200, @fluidGridGutterWidth1200);
+		// use margin not padding,
+		// because padding is NOT compatile with min-height!!
+		margin-top:10px;
 	}
 }

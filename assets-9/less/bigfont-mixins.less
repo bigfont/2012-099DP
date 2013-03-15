@@ -15,7 +15,9 @@
 }
 .bigfont-spanX(@spanX, @columnWidth, @gutterWidth)
 {
-	width:(@spanX * @columnWidth) + ((@spanX - 1) * @gutterWidth);
+	@totalColumn:@spanX * @columnWidth;
+	@totalGutter:(@spanX - 2) * @gutterWidth; // must be minus two - one for the front, one for the back!!!
+	width:@totalColumn + @totalGutter;
 }
 .responsive-border(@borderWidth, @borderBackground)
 {
