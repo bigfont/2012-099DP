@@ -1,0 +1,39 @@
+﻿// ----------------------------
+// main content
+// ----------------------------
+div#main-content
+{	    
+	position:relative;
+	bottom:80px;
+	section
+	{
+		padding-top:40px;
+		div.media
+		{
+			margin-top:15px;
+		}
+		section
+		{
+			// sub-sections shall have half the padding, or so
+			padding-top:25px;
+			&:first-of-type
+			{
+				padding-top:0 !important;
+			}
+		}
+		hgroup
+		{
+			padding-bottom:20px;
+		}
+	}
+}
+
+/* After Spans Stack
+------------------------- */
+@media (max-width:767px)
+{
+	div#main-content
+	{	    
+		position:static;
+	}
+}

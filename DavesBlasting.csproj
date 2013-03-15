@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6ECA844A-F318-4A99-A25F-81E7D31CE634}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DavesBlasting</RootNamespace>
+    <AssemblyName>DavesBlasting</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <includesetaclproviderondestination>False</includesetaclproviderondestination>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <includesetaclproviderondestination>False</includesetaclproviderondestination>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\packages\RestSharp.104.1\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets-8\css\bigfont.css" />
+    <Content Include="assets-8\css\bootstrap.css" />
+    <Content Include="assets-8\css\responsive.css" />
+    <Content Include="assets-8\img\crew.jpg" />
+    <Content Include="assets-8\img\equipment-large-1.jpg" />
+    <Content Include="assets-8\img\equipment-large-2.jpg" />
+    <Content Include="assets-8\img\equipment-large-3.jpg" />
+    <Content Include="assets-8\img\equipment-medium-1.JPG" />
+    <Content Include="assets-8\img\equipment-medium-2.jpg" />
+    <Content Include="assets-8\img\equipment-medium-3.JPG" />
+    <Content Include="assets-8\img\equipment-medium-4.jpg" />
+    <Content Include="assets-8\img\equipment-medium-5.jpg" />
+    <Content Include="assets-8\img\equipment-medium-6.jpg" />
+    <Content Include="assets-8\img\equipment-medium-7.jpg" />
+    <Content Include="assets-8\img\equipment-small-1.jpg" />
+    <Content Include="assets-8\img\equipment-small-2.jpg" />
+    <Content Include="assets-8\img\equipment-small-3.jpg" />
+    <Content Include="assets-8\img\glyphicons-halflings-white.png" />
+    <Content Include="assets-8\img\glyphicons-halflings.png" />
+    <Content Include="assets-8\img\headshot-dave.jpg" />
+    <Content Include="assets-8\img\headshot-terry.jpg" />
+    <Content Include="assets-8\img\main-slideshow-1.jpg" />
+    <Content Include="assets-8\img\main-slideshow-2.jpg" />
+    <Content Include="assets-8\img\main-slideshow-3.jpg" />
+    <Content Include="assets-8\js\01-jquery.js" />
+    <Content Include="assets-8\js\02-bootstrap.js" />
+    <Content Include="assets-8\js\03-bigfont.js" />
+    <Content Include="assets-8\js\04-holder.js" />
+    <Content Include="assets-8\video\DavesBlasting.flv" />
+    <Content Include="assets-8\video\DavesBlasting.mp4" />
+    <Content Include="assets-8\video\DavesBlasting.swf" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="lib\CodeScales.Http.dll" />
+    <Content Include="pages\communityProjects.aspx" />
+    <Content Include="pages\contactUs.aspx" />
+    <Content Include="pages\default.aspx" />
+    <Content Include="pages\equipment.aspx" />
+    <Content Include="pages\faqs.aspx" />
+    <Content Include="pages\links.aspx" />
+    <Content Include="pages\people.aspx" />
+    <Content Include="pages\photosAndVideos.aspx" />
+    <Content Include="pages\ratesAndPayment.aspx" />
+    <Content Include="pages\safety.aspx" />
+    <Content Include="pages\shopAndShwag.aspx" />
+    <Content Include="pages\skillsAndExperience.aspx" />
+    <Content Include="pages\territory.aspx" />
+    <Content Include="assets-8\less\bootstrap\tests\buttons.html" />
+    <Content Include="assets-8\less\bootstrap\tests\css-tests.css" />
+    <Content Include="assets-8\less\bootstrap\tests\css-tests.html" />
+    <Content Include="assets-8\less\bootstrap\tests\forms-responsive.html" />
+    <Content Include="assets-8\less\bootstrap\tests\forms.html" />
+    <Content Include="assets-8\less\bootstrap\tests\navbar-fixed-top.html" />
+    <Content Include="assets-8\less\bootstrap\tests\navbar-static-top.html" />
+    <Content Include="assets-8\less\bootstrap\tests\navbar.html" />
+    <Content Include="txt\bootstrap-download-customizations.txt" />
+    <Content Include="txt\Client_DavePhillips.txt" />
+    <Content Include="txt\lessc.txt" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="pages\communityProjects.aspx.cs">
+      <DependentUpon>communityProjects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\communityProjects.aspx.designer.cs">
+      <DependentUpon>communityProjects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\contactUs.aspx.cs">
+      <DependentUpon>contactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\contactUs.aspx.designer.cs">
+      <DependentUpon>contactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\equipment.aspx.cs">
+      <DependentUpon>equipment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\equipment.aspx.designer.cs">
+      <DependentUpon>equipment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\faqs.aspx.cs">
+      <DependentUpon>faqs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\faqs.aspx.designer.cs">
+      <DependentUpon>faqs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\links.aspx.cs">
+      <DependentUpon>links.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\links.aspx.designer.cs">
+      <DependentUpon>links.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\people.aspx.cs">
+      <DependentUpon>people.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\people.aspx.designer.cs">
+      <DependentUpon>people.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\photosAndVideos.aspx.cs">
+      <DependentUpon>photosAndVideos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\photosAndVideos.aspx.designer.cs">
+      <DependentUpon>photosAndVideos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\ratesAndPayment.aspx.cs">
+      <DependentUpon>ratesAndPayment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\ratesAndPayment.aspx.designer.cs">
+      <DependentUpon>ratesAndPayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\safety.aspx.cs">
+      <DependentUpon>safety.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\safety.aspx.designer.cs">
+      <DependentUpon>safety.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\shopAndShwag.aspx.cs">
+      <DependentUpon>shopAndShwag.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\shopAndShwag.aspx.designer.cs">
+      <DependentUpon>shopAndShwag.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\skillsAndExperience.aspx.cs">
+      <DependentUpon>skillsAndExperience.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\skillsAndExperience.aspx.designer.cs">
+      <DependentUpon>skillsAndExperience.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\territory.aspx.cs">
+      <DependentUpon>territory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\territory.aspx.designer.cs">
+      <DependentUpon>territory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+    <None Include="assets-8\less\bigfont-affix.less" />
+    <None Include="assets-8\less\bigfont-mixins.less" />
+    <None Include="assets-8\less\bigfont-responsive-misc.less" />
+    <None Include="assets-8\less\bigfont-variables.less" />
+    <None Include="assets-8\less\bigfont.less" />
+    <None Include="assets-8\less\bootstrap\variables-orig.less" />
+    <None Include="assets-8\less\bigfont-header.less" />
+    <None Include="assets-8\less\bigfont-main-content.less" />
+    <Content Include="assets-8\video\DavesBlasting.ogv" />
+    <Content Include="assets-8\video\DavesBlasting.webm" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\blasting.bigfont.ca.pubxml" />
+    <None Include="assets-8\less\bootstrap\accordion.less" />
+    <None Include="assets-8\less\bootstrap\alerts.less" />
+    <None Include="assets-8\less\bootstrap\bootstrap.less" />
+    <None Include="assets-8\less\bootstrap\breadcrumbs.less" />
+    <None Include="assets-8\less\bootstrap\button-groups.less" />
+    <None Include="assets-8\less\bootstrap\buttons.less" />
+    <None Include="assets-8\less\bootstrap\carousel.less" />
+    <None Include="assets-8\less\bootstrap\close.less" />
+    <None Include="assets-8\less\bootstrap\code.less" />
+    <None Include="assets-8\less\bootstrap\component-animations.less" />
+    <None Include="assets-8\less\bootstrap\dropdowns.less" />
+    <None Include="assets-8\less\bootstrap\forms.less" />
+    <None Include="assets-8\less\bootstrap\grid.less" />
+    <None Include="assets-8\less\bootstrap\hero-unit.less" />
+    <None Include="assets-8\less\bootstrap\labels-badges.less" />
+    <None Include="assets-8\less\bootstrap\layouts.less" />
+    <None Include="assets-8\less\bootstrap\media.less" />
+    <None Include="assets-8\less\bootstrap\mixins.less" />
+    <None Include="assets-8\less\bootstrap\modals.less" />
+    <None Include="assets-8\less\bootstrap\navbar.less" />
+    <None Include="assets-8\less\bootstrap\navs.less" />
+    <None Include="assets-8\less\bootstrap\pager.less" />
+    <None Include="assets-8\less\bootstrap\pagination.less" />
+    <None Include="assets-8\less\bootstrap\popovers.less" />
+    <None Include="assets-8\less\bootstrap\progress-bars.less" />
+    <None Include="assets-8\less\bootstrap\reset.less" />
+    <None Include="assets-8\less\bootstrap\responsive-1200px-min.less" />
+    <None Include="assets-8\less\bootstrap\responsive-767px-max.less" />
+    <None Include="assets-8\less\bootstrap\responsive-768px-979px.less" />
+    <None Include="assets-8\less\bootstrap\responsive-navbar.less" />
+    <None Include="assets-8\less\bootstrap\responsive-utilities.less" />
+    <None Include="assets-8\less\bootstrap\responsive.less" />
+    <None Include="assets-8\less\bootstrap\scaffolding.less" />
+    <None Include="assets-8\less\bootstrap\sprites.less" />
+    <None Include="assets-8\less\bootstrap\tables.less" />
+    <None Include="assets-8\less\bootstrap\thumbnails.less" />
+    <None Include="assets-8\less\bootstrap\tooltip.less" />
+    <None Include="assets-8\less\bootstrap\type.less" />
+    <None Include="assets-8\less\bootstrap\utilities.less" />
+    <None Include="assets-8\less\bootstrap\variables.less" />
+    <None Include="assets-8\less\bootstrap\wells.less" />
+    <None Include="txt\DBlasting_Site_Map_v1.pdf" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53382</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

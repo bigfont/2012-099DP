@@ -1,0 +1,59 @@
+﻿
+@import "bootstrap/mixins.less";
+@import "bootstrap/variables.less";
+
+@import "bigfont-mixins.less";
+@import "bigfont-variables.less";
+@import "bigfont-affix.less";
+@import "bigfont-header.less";
+@import "bigfont-main-content.less";
+@import "bigfont-responsive-misc.less";
+
+// ----------------------------
+// layout
+// ----------------------------
+body
+{
+	padding:0; // un-pad the body
+}
+
+
+// ----------------------------
+// typography
+// ----------------------------
+q 
+{
+	font-style:italic;
+}
+span.quote-author
+{
+	font-weight:bold;
+}
+dl
+{
+	// remove bootstrap default top padding
+	margin-top:0;	
+}
+small
+{
+	display:block;
+}
+
+
+// ----------------------------
+// main navigation
+// ----------------------------
+div#main-nav
+{
+
+}
+
+
+// ----------------------------
+// footer content
+// ----------------------------
+div#footer-content
+{
+	// so that the subnav works for the bottom-most content
+	height:400px;
+}

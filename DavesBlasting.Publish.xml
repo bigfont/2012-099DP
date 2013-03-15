@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="https://w04.winhost.com:8172/MsDeploy.axd" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="bigfont.ca/blastingapplication_rootvirtualdirectory" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="True" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="True" profileName="blasting.bigfont.ca" publishMethod="MSDeploy" replaceMatchingFiles="True" userName="bigfontc" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArrD23B0ti0KlCfwMrRNv+wAAAAACAAAAAAAQZgAAAAEAACAAAACQwSOOBZ99IGxFAPvqzfRLDA3vcGhY56mZ+Qnx32/w7QAAAAAOgAAAAAIAACAAAABS16V1vYrXL6BV9YLTkh6It01crFx3+6N3KaKr2xLpwSAAAAB4X10Ejyk6BtdVntJNiAuuRGHO0vYL7KQTw2nEzVbfn0AAAAA0OassZbcTK8IMSJwNGzyTUXb2OnsIPjDO8g3QXD6U6cRHQVyJ/g2sF52PHp6WCYgWZIUdfaxvnpZDopXaPzbp" SelectedForPublish="True" />
+</publishData>
