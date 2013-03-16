@@ -17,14 +17,12 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section id="management">
-        <hgroup>
-            <h1>Management
-            </h1>
-        </hgroup>
+        <h1>Management
+        </h1>
         <div class="media">
             <a class="pull-left" href="#">
                 <div>
-                    <img src="../assets-9/img/headshot-dave.jpg" />
+                    <img src="../assets-10/img/headshot-dave.jpg" />
                 </div>
             </a>
             <div class="media-body">
@@ -39,7 +37,7 @@
         <div class="media">
             <a class="pull-left" href="#">
                 <div>
-                    <img src="../assets-9/img/headshot-terry.jpg" />
+                    <img src="../assets-10/img/headshot-terry.jpg" />
                 </div>
             </a>
             <div class="media-body">
@@ -53,10 +51,8 @@
         </div>
     </section>
     <section id="team">
-        <hgroup>
-            <h1>Blasting Team
-            </h1>
-        </hgroup>
+        <h1>Blasting Team
+        </h1>
         <p>
             Art party swag shoreditch pop-up, squid sapiente commodo synth bushwick aesthetic
             blog direct trade polaroid. Tattooed kale chips dreamcatcher, hella twee 3 wolf
@@ -64,7 +60,7 @@
         </p>
         <ul class="thumbnails">
             <li class="span6"><a href="#" class="thumbnail">
-                <img src="../assets-9/img/crew.jpg" />
+                <img src="../assets-10/img/crew.jpg" />
             </a></li>
             <li class="span3"><a href="#" class="thumbnail">
                 <img src="http://lorempixel.com/480/480/people/5" />
@@ -81,10 +77,8 @@
         </ul>
     </section>
     <section id="contractors">
-        <hgroup>
-            <h1>Sub Contractors
-            </h1>
-        </hgroup>
+        <h1>Sub Contractors
+        </h1>
         <p>
             Art party swag shoreditch pop-up, squid sapiente commodo synth bushwick aesthetic
             blog direct trade polaroid. Tattooed kale chips dreamcatcher, hella twee 3 wolf
@@ -115,10 +109,8 @@
         </p>
     </section>
     <section id="careers">
-        <hgroup>
-            <h1>Careers
-            </h1>
-        </hgroup>
+        <h1>Careers
+        </h1>
         <p>
             Art party swag shoreditch pop-up, squid sapiente commodo synth bushwick aesthetic
             blog direct trade polaroid. Tattooed kale chips dreamcatcher, hella twee 3 wolf
@@ -149,10 +141,8 @@
         </p>
     </section>
     <section id="benefits">
-        <hgroup>
-            <h1>Benefits
-            </h1>
-        </hgroup>
+        <h1>Benefits
+        </h1>
         <p>
             Art party swag shoreditch pop-up, squid sapiente commodo synth bushwick aesthetic
             blog direct trade polaroid. Tattooed kale chips dreamcatcher, hella twee 3 wolf

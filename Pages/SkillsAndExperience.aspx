@@ -15,10 +15,8 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section id="projects">
-        <hgroup>
             <h1>
                 Past Projects</h1>
-        </hgroup>
         <dl>
             <dt>Grace Point Square & Condos.</dt>
             <dd>
@@ -38,11 +36,9 @@
         </dl>
     </section>
     <section id="testimonials">
-        <hgroup>
             <h1>
                 Testimonials
             </h1>
-        </hgroup>
         <section>
             <q>Fap locavore accusamus, aute sriracha sunt pour-over. Marfa cardigan do, wayfarers
                 keytar veniam eu ullamco proident gastropub brunch. Gluten-free sunt aute helvetica
@@ -75,11 +71,9 @@
         </section>
     </section>
     <section id="clients">
-        <hgroup>
             <h1>
                 Client List
             </h1>
-        </hgroup>
         <ul>
             <li>This is client number 1.</li>
             <li>This is client number 2.</li>
@@ -93,11 +87,9 @@
         </ul>
     </section>
     <section id="certifications">
-        <hgroup>
             <h1>
                 Certifications
             </h1>
-        </hgroup>
         <ul>
             <li>This is certification number 1.</li>
             <li>This is certification number 2.</li>

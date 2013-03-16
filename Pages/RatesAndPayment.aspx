@@ -13,11 +13,9 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section id="estimates">
-        <hgroup>
             <h1>
                 Estimates
             </h1>
-        </hgroup>
         <p>
             Art party swag shoreditch pop-up, squid sapiente commodo synth bushwick aesthetic
             blog direct trade polaroid. Tattooed kale chips dreamcatcher, hella twee 3 wolf
@@ -28,10 +26,8 @@
             deserunt. Photo booth skateboard marfa, high life mixtape lo-fi freegan.</p>
     </section>
     <section id="cash-register">
-        <hgroup>
             <h1>
                 Cash Register
             </h1>
-        </hgroup>
     </section>
 </asp:Content>

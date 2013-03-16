@@ -14,12 +14,10 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section id="policies">
-        <hgroup>
             <h1>Safety Policies
             </h1>
-        </hgroup>
         <figure class="in-paragraph-left"> 
-            <img src="../assets-9/img/safety-bird.jpg">
+            <img src="../assets-10/img/safety-bird.jpg">
             <figcaption>Safety First</figcaption>
         </figure>
         <p>                
@@ -31,12 +29,11 @@
             culpa nostrud, brooklyn pour-over fugiat trust fund DIY cred kogi proident hoodie
             deserunt. Photo booth skateboard marfa, high life mixtape lo-fi freegan.
         </p>
+        
     </section>
     <section id="record">
-        <hgroup>
             <h1>Safety Record
             </h1>
-        </hgroup>
         <p>
             Art party swag shoreditch pop-up, squid sapiente commodo synth bushwick aesthetic
             blog direct trade polaroid. Tattooed kale chips dreamcatcher, hella twee 3 wolf

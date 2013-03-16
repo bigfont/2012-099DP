@@ -12,11 +12,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
     <li class="tab">
         <a>
-            <img src="../assets-9/img/subnav.jpg" /></a>
+            <img src="../assets-10/img/subnav.jpg" /></a>
     </li>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
-    <section class="row-fluid">
+    <section>
         <h2>Welcome to Dave's Blasting&nbsp;<small>A subsidiary of Blue Spruce Resources</small></h2>
         <p>
             We’ve been in business since 1978, when Dave purchased the business and equipment from Norman Twa, 
@@ -24,7 +24,7 @@
             and up to date with WCB, Transport Canada, and the Mines, Energy and Explosives requirements thereof. 
         </p>
     </section>
-    <section class="row-fluid">
+    <section>
         <h2>Blasting & Services</h2>
         <p>
             Since 1978 we have carried out thousands of safe and successful blasts and have diversified into concrete 
@@ -32,7 +32,7 @@
             extends through the Gulf Islands with occasional forays into Vancouver Island. 
         </p>
     </section>
-    <section class="row-fluid">
+    <section>
         <h2>More About Us</h2>
         <p>
             We have core of six full-time staff and a ready group of part-time temporary workers and sub-contractors. 
@@ -41,7 +41,7 @@
             on the spot, water Taxi service to your area.
         </p>
     </section>
-    <section class="row-fluid">
+    <section>
         <h2>Contact Us</h2>
         <p>
             To schedule a blasting, a free estimate, a consultation or just to chat, please <a href="http://www.davesblasting.ca/contact">contact us</a>.

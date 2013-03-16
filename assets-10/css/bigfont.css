@@ -15,13 +15,13 @@ nav#sub-nav>ul.nav-tabs li.tab.contact a.non-link:hover{cursor:default;}
 nav#sub-nav>ul.nav-tabs li.tab.active>a{background:#ffc40d;color:#000000;}
 nav#sub-nav>ul.nav-tabs li.tab img{width:100%;}
 @media (min-width:981px){div.affix-container{margin-top:60px;} nav.affix{top:60px;width:38.297872340425535%;}}@media (max-width:980px){div.affix-container{margin-top:60px;} nav.affix{top:40px;width:37.29281767955801%;}}@media (max-width:767px){nav.affix{position:static;width:auto;}nav.affix i.icon-chevron-right{display:none;} div.affix-container{margin-top:10px;}}header#header-content .container-fluid,header#header-content .carousel{margin:0;padding:0;}
-header#header-content hgroup{background:none repeat scroll 0 0 rgba(0, 0, 0, 0.75);padding:10px;position:relative;width:100%;bottom:80px;}header#header-content hgroup h1{padding:0;margin:0;color:#ffc40d;}
-@media (max-width:767px){header#header-content hgroup{background:none;position:static;}}#main-content,#footer-content{padding-left:10px;padding-right:10px;}
+header#header-content hgroup{background:none repeat scroll 0 0 rgba(0, 0, 0, 0.75);padding:10px 1%;position:relative;width:98%;bottom:80px;}header#header-content hgroup h1{padding:0;margin:0;color:#ffc40d;}
+@media (max-width:767px){header#header-content hgroup{background:none;position:static;}}#main-content,#footer-content{margin-left:10px;margin-right:10px;}
 div#main-content{position:relative;bottom:80px;}div#main-content section{padding-top:40px;}div#main-content section div.media{margin-top:15px;}
 div#main-content section section{padding-top:25px;}div#main-content section section:first-of-type{padding-top:0 !important;}
 div#main-content section hgroup{padding-bottom:20px;}
 @media (max-width:767px){div#main-content{position:static;}}div#footer-content{height:400px;}
-figure{margin:0;padding:5px;border:thin solid silver;}
+@media (min-width:768px){iframe#territoryMap{width:90%;height:300px;}}@media (max-width:767px){iframe#territoryMap{width:98%;height:300px;}}figure{margin:0;padding:5px;border:thin solid silver;}
 figcaption{text-align:center;color:#ff6600;font-weight:bold;}
 .in-paragraph-left{float:left;margin-right:15px;}
 .in-paragraph-right{float:right;margin-left:15px;}
@@ -30,3 +30,5 @@ q{font-style:italic;}
 span.quote-author{font-weight:bold;}
 dl{margin-top:0;}
 small{display:block;}
+address label{font-weight:bold;}
+address i{margin-right:6px !important;margin-top:6px !important;}

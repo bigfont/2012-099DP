@@ -12,18 +12,18 @@
 <asp:Content ID="Content3" ContentPlaceHolderID="cphSubnav" runat="server">
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphMainArticle" runat="server">
-    <section class="row-fluid">
+    <section>
         <h1>
             Videos</h1>
         <video width="480px" height="360px" controls>
             <%--Make sure to add a configuration > system.webServer > staticContent > mimeMap entry for .ogv AND .webm file extensions--%>
-            <source src="../assets-9/video/DavesBlasting.mp4" type="video/mp4" />
-            <source src="../assets-9/video/DavesBlasting.ogv" type="video/ogg" />
-            <source src="../assets-9/video/DavesBlasting.webm" type="video/webm" />
+            <source src="../assets-10/video/DavesBlasting.mp4" type="video/mp4" />
+            <source src="../assets-10/video/DavesBlasting.ogv" type="video/ogg" />
+            <source src="../assets-10/video/DavesBlasting.webm" type="video/webm" />
             <p>Your browser can’t play HTML5 video.</p>
         </video>
     </section>
-    <section class="row-fluid">
+    <section>
         <h1>
             Pictures</h1>
     </section>
