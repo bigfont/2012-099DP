@@ -12,7 +12,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
     <li class="tab">
         <a>
-            <img src="../assets-15/img/subnav.jpg" /></a>
+            <img src="../assets-20/img/subnav.jpg" /></a>
     </li>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">

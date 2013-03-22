@@ -7,7 +7,7 @@ Compile Less
 
 
 -----------------------
-cd C:\Users\Shaun\Documents\GitHub\DavesBlasting\assets-15\less
+cd C:\Users\Shaun\Documents\GitHub\DavesBlasting\assets-20\less
 lessc -x bigfont.less > ../css/bigfont.css
 lessc -x bootstrap/bootstrap.less > ../css/bootstrap.css
 lessc -x bootstrap/responsive.less > ../css/responsive.css
