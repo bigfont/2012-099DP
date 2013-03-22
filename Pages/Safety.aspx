@@ -16,9 +16,9 @@
     <section id="policies">
             <h1>Safety Policies
             </h1>
-        <figure class="in-paragraph-left"> 
+        <figure class="in-paragraph-left img-polaroid"> 
             <img src="../assets-15/img/safety-bird.jpg">
-            <figcaption>Safety First</figcaption>
+            <figcaption class="center-text"><strong>Safety First</strong></figcaption>
         </figure>
         <p>                
             Art party swag shoreditch pop-up, squid sapiente commodo synth bushwick aesthetic

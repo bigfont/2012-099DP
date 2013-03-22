@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphHeader" runat="server">
     <hgroup>
-        <h1>Dave's Blasting
+        <h1>Welcome
         </h1>
     </hgroup>
 </asp:Content>
@@ -17,7 +17,7 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section>
-        <h2>Welcome to Dave's Blasting&nbsp;<small>A subsidiary of Blue Spruce Resources</small></h2>
+        <h2>Dave's Blasting&nbsp;<small>A subsidiary of Blue Spruce Resources</small></h2>
         <p>
             We’ve been in business since 1978, when Dave purchased the business and equipment from Norman Twa, 
             who trained him and got him started. We are courteous, friendly, reliable, well-trained, fully insured,

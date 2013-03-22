@@ -12,87 +12,113 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section>
-            <h1>Blasting Equipment
-            </h1>
+        <h1>Blasting Equipment
+        </h1>
         <ul class="thumbnails">
             <li class="span4">
-                <a href="#" class="thumbnail">
+                <div class="thumbnail">
                     <img src="../assets-15/img/equipment-small-1.jpg" />
-                </a>
+                    <strong>Thumbnail label</strong>
+                    <p>Thumbnail caption goes here and can be about this long...</p>
+                </div>
             </li>
             <li class="span4">
-                <a href="#" class="thumbnail">
+                <div class="thumbnail">
                     <img src="../assets-15/img/equipment-small-2.jpg" />
-                </a>
+                    <strong>Thumbnail label</strong>
+                    <p>Thumbnail caption goes here and can be about this long...</p>
+                </div>
             </li>
             <li class="span4">
-                <a href="#" class="thumbnail">
+                <div class="thumbnail">
                     <img src="../assets-15/img/equipment-small-3.jpg" />
-                </a>
+                    <strong>Thumbnail label</strong>
+                    <p>Thumbnail caption goes here and can be about this long...</p>
+                </div>
             </li>
         </ul>
         <ul class="thumbnails">
             <li class="span6">
-                <a href="#" class="thumbnail">
+                <div class="thumbnail">
                     <img src="../assets-15/img/equipment-medium-1.jpg" />
-                </a>
+                    <strong>Thumbnail label</strong>
+                    <p>Thumbnail caption goes here and can be about this long...</p>
+                </div>
             </li>
             <li class="span6">
-                <a href="#" class="thumbnail">
+                <div class="thumbnail">
                     <img src="../assets-15/img/equipment-medium-2.jpg" />
-                </a>
+                    <strong>Thumbnail label</strong>
+                    <p>Thumbnail caption goes here and can be about this long...</p>
+                </div>
             </li>
         </ul>
         <ul class="thumbnails">
             <li class="span6">
-                <a href="#" class="thumbnail">
+                <div class="thumbnail">
                     <img src="../assets-15/img/equipment-medium-3.jpg" />
-                </a>
+                    <strong>Thumbnail label</strong>
+                    <p>Thumbnail caption goes here and can be about this long...</p>
+                </div>
             </li>
             <li class="span6">
-                <a href="#" class="thumbnail">
+                <div class="thumbnail">
                     <img src="../assets-15/img/equipment-medium-4.jpg" />
-                </a>
+                    <strong>Thumbnail label</strong>
+                    <p>Thumbnail caption goes here and can be about this long...</p>
+                </div>
             </li>
         </ul>
         <ul class="thumbnails">
             <li class="span6">
-                <a href="#" class="thumbnail">
+                <div class="thumbnail">
                     <img src="../assets-15/img/equipment-medium-5.jpg" />
-                </a>
+                    <strong>Thumbnail label</strong>
+                    <p>Thumbnail caption goes here and can be about this long...</p>
+                </div>
             </li>
             <li class="span6">
-                <a href="#" class="thumbnail">
+                <div class="thumbnail">
                     <img src="../assets-15/img/equipment-medium-6.jpg" />
-                </a>
+                    <strong>Thumbnail label</strong>
+                    <p>Thumbnail caption goes here and can be about this long...</p>
+                </div>
             </li>
         </ul>
         <ul class="thumbnails">
             <li class="span6">
-                <a href="#" class="thumbnail">
+                <div class="thumbnail">
                     <img src="../assets-15/img/equipment-medium-7.jpg" />
-                </a>
+                    <strong>Thumbnail label</strong>
+                    <p>Thumbnail caption goes here and can be about this long...</p>
+                </div>
             </li>
         </ul>
         <ul class="thumbnails">
             <li class="span12">
-                <a href="#" class="thumbnail">
+                <div class="thumbnail">
                     <img src="../assets-15/img/equipment-large-1.jpg" />
-                </a>
+                    <strong>Thumbnail label</strong>
+                    <p>Thumbnail caption goes here and can be about this long...</p>
+                </div>
             </li>
         </ul>
         <ul class="thumbnails">
             <li class="span12">
-                <a href="#" class="thumbnail">
+                <div class="thumbnail">
                     <img src="../assets-15/img/equipment-large-2.jpg" />
-                </a>
+                    <strong>Thumbnail label</strong>
+                    <p>Thumbnail caption goes here and can be about this long...</p>
+                </div>
             </li>
         </ul>
         <ul class="thumbnails">
             <li class="span12">
-                <a href="#" class="thumbnail">
+                <div class="thumbnail">
                     <img src="../assets-15/img/equipment-large-3.jpg" />
-                </a>
+                    <strong>Thumbnail label</strong>
+                    <p>Thumbnail caption goes here and can be about this long...</p>
+                </div>
             </li>
         </ul>
 
