@@ -17,81 +17,81 @@
         <ul class="thumbnails">
             <li class="span4">
                 <a href="#" class="thumbnail">
-                    <img src="../assets-10/img/equipment-small-1.jpg" />
+                    <img src="../assets-15/img/equipment-small-1.jpg" />
                 </a>
             </li>
             <li class="span4">
                 <a href="#" class="thumbnail">
-                    <img src="../assets-10/img/equipment-small-2.jpg" />
+                    <img src="../assets-15/img/equipment-small-2.jpg" />
                 </a>
             </li>
             <li class="span4">
                 <a href="#" class="thumbnail">
-                    <img src="../assets-10/img/equipment-small-3.jpg" />
+                    <img src="../assets-15/img/equipment-small-3.jpg" />
                 </a>
             </li>
         </ul>
         <ul class="thumbnails">
             <li class="span6">
                 <a href="#" class="thumbnail">
-                    <img src="../assets-10/img/equipment-medium-1.jpg" />
+                    <img src="../assets-15/img/equipment-medium-1.jpg" />
                 </a>
             </li>
             <li class="span6">
                 <a href="#" class="thumbnail">
-                    <img src="../assets-10/img/equipment-medium-2.jpg" />
+                    <img src="../assets-15/img/equipment-medium-2.jpg" />
                 </a>
             </li>
         </ul>
         <ul class="thumbnails">
             <li class="span6">
                 <a href="#" class="thumbnail">
-                    <img src="../assets-10/img/equipment-medium-3.jpg" />
+                    <img src="../assets-15/img/equipment-medium-3.jpg" />
                 </a>
             </li>
             <li class="span6">
                 <a href="#" class="thumbnail">
-                    <img src="../assets-10/img/equipment-medium-4.jpg" />
+                    <img src="../assets-15/img/equipment-medium-4.jpg" />
                 </a>
             </li>
         </ul>
         <ul class="thumbnails">
             <li class="span6">
                 <a href="#" class="thumbnail">
-                    <img src="../assets-10/img/equipment-medium-5.jpg" />
+                    <img src="../assets-15/img/equipment-medium-5.jpg" />
                 </a>
             </li>
             <li class="span6">
                 <a href="#" class="thumbnail">
-                    <img src="../assets-10/img/equipment-medium-6.jpg" />
+                    <img src="../assets-15/img/equipment-medium-6.jpg" />
                 </a>
             </li>
         </ul>
         <ul class="thumbnails">
             <li class="span6">
                 <a href="#" class="thumbnail">
-                    <img src="../assets-10/img/equipment-medium-7.jpg" />
-                </a>
-            </li>
-        </ul>
-        <ul class="thumbnails">
-            <li class="span12">
-                <a href="#" class="thumbnail">
-                    <img src="../assets-10/img/equipment-large-1.jpg" />
+                    <img src="../assets-15/img/equipment-medium-7.jpg" />
                 </a>
             </li>
         </ul>
         <ul class="thumbnails">
             <li class="span12">
                 <a href="#" class="thumbnail">
-                    <img src="../assets-10/img/equipment-large-2.jpg" />
+                    <img src="../assets-15/img/equipment-large-1.jpg" />
                 </a>
             </li>
         </ul>
         <ul class="thumbnails">
             <li class="span12">
                 <a href="#" class="thumbnail">
-                    <img src="../assets-10/img/equipment-large-3.jpg" />
+                    <img src="../assets-15/img/equipment-large-2.jpg" />
+                </a>
+            </li>
+        </ul>
+        <ul class="thumbnails">
+            <li class="span12">
+                <a href="#" class="thumbnail">
+                    <img src="../assets-15/img/equipment-large-3.jpg" />
                 </a>
             </li>
         </ul>

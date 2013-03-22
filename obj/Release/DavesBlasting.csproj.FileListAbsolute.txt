@@ -21,6 +21,5 @@ C:\Users\Shaun\Documents\ClientWebSites\DavesBlasting\bin\Newtonsoft.Json.xml
 C:\Users\Shaun\Documents\ClientWebSites\DavesBlasting\bin\RestSharp.xml
 C:\Users\Shaun\Documents\GitHub\DavesBlasting\bin\DavesBlasting.dll
 C:\Users\Shaun\Documents\GitHub\DavesBlasting\bin\DavesBlasting.pdb
-C:\Users\Shaun\Documents\GitHub\DavesBlasting\obj\Release\DavesBlasting.csprojResolveAssemblyReference.cache
 C:\Users\Shaun\Documents\GitHub\DavesBlasting\obj\Release\DavesBlasting.dll
 C:\Users\Shaun\Documents\GitHub\DavesBlasting\obj\Release\DavesBlasting.pdb

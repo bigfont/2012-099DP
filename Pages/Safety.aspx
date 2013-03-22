@@ -9,15 +9,15 @@
     </hgroup>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
-    <li class="tab"><div><a href="#policies">Safety Policies</a></div></li>
-    <li class="tab"><div><a href="#record">Safety Record</a></div></li>
+    <li class="tab"><a href="#policies">Safety Policies</a></li>
+    <li class="tab"><a href="#record">Safety Record</a></li>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section id="policies">
             <h1>Safety Policies
             </h1>
         <figure class="in-paragraph-left"> 
-            <img src="../assets-10/img/safety-bird.jpg">
+            <img src="../assets-15/img/safety-bird.jpg">
             <figcaption>Safety First</figcaption>
         </figure>
         <p>                

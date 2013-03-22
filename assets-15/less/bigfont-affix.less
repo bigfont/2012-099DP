@@ -22,23 +22,19 @@ nav#sub-nav > ul.nav-tabs
 	li.tab
 	{
 		white-space:nowrap;
-		div
+		> a, > div
 		{
-			&:hover
-			{
-				// cursor:pointer; // for links without an href
-			}
 			margin-left:5px;
 			margin-right:5px;
 			padding: 10px 12px;
 			border: 1px solid #e5e5e5;
 		}		
-		&:first-child div
+		> &:first-child a, > &:first-child div
 		{
 			.border-top-left-radius(6px);
 			.border-top-right-radius(6px);
 		}
-		&:last-child div
+		> &:last-child a, > &:last-child div
 		{
 			.border-bottom-left-radius(6px);
 			.border-bottom-right-radius(6px);
