@@ -25,7 +25,7 @@
         </p>
     </section>
     <section>
-        <h2>Blasting & Services</h2>
+        <h2>Services</h2>
         <p>
             Since 1978 we have carried out thousands of safe and successful blasts and have diversified into concrete 
             cutting and coring and sub-terrain moling. Our base in on Salt Spring Island but our service area 
@@ -33,7 +33,7 @@
         </p>
     </section>
     <section>
-        <h2>More About Us</h2>
+        <h2>About Us</h2>
         <p>
             We have core of six full-time staff and a ready group of part-time temporary workers and sub-contractors. 
             We work for the public-at-large and often sub-contract to builders, excavation contractors, BC Hydro, architects, 
