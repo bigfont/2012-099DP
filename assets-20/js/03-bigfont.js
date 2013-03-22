@@ -9,8 +9,6 @@
             interval: 5000
         });
 
-        makeEachThumbnailLinkToItsImageUrl();
-
     });
 
 } ());
