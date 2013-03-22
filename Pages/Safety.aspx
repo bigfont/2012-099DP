@@ -9,8 +9,8 @@
     </hgroup>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
-    <li class="tab"><a href="#policies">Safety Policies</a></li>
-    <li class="tab"><a href="#record">Safety Record</a></li>
+    <li class="tab"><div><a href="#policies">Safety Policies</a></div></li>
+    <li class="tab"><div><a href="#record">Safety Record</a></div></li>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section id="policies">

@@ -8,8 +8,8 @@
         Rates</h1></hgroup>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
-    <li class="tab"><a href="#estimates">Estimates</a></li>
-    <li class="tab"><a href="#cash-register">Cash Register</a></li>
+    <li class="tab"><div><a href="#estimates">Estimates</a></div></li>
+    <li class="tab"><div><a href="#cash-register">Cash Register</a></div></li>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section id="estimates">

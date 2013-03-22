@@ -9,11 +9,11 @@
     </hgroup>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
-    <li class="tab"><a href="#management">Management</a></li>
-    <li class="tab"><a href="#team">Blasting Team</a></li>
-    <li class="tab"><a href="#contractors">Sub Contractors</a></li>
-    <li class="tab"><a href="#careers">Careers</a></li>
-    <li class="tab"><a href="#benefits">Benefits</a></li>
+    <li class="tab"><div><a href="#management">Management</a></div></li>
+    <li class="tab"><div><a href="#team">Blasting Team</a></div></li>
+    <li class="tab"><div><a href="#contractors">Sub Contractors</a></div></li>
+    <li class="tab"><div><a href="#careers">Careers</a></div></li>
+    <li class="tab"><div><a href="#benefits">Benefits</a></div></li>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section id="management">
