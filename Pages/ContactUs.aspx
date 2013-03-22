@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphHeader" runat="server">
     <hgroup>
-        <h1>Contact Us!
+        <h1>Contact
         </h1>
     </hgroup>
 </asp:Content>
