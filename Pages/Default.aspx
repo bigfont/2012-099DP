@@ -33,7 +33,7 @@
         </p>
     </section>
     <section>
-        <h2>About Us</h2>
+        <h2>About</h2>
         <p>
             We have core of six full-time staff and a ready group of part-time temporary workers and sub-contractors. 
             We work for the public-at-large and often sub-contract to builders, excavation contractors, BC Hydro, architects, 
@@ -42,7 +42,7 @@
         </p>
     </section>
     <section>
-        <h2>Contact Us</h2>
+        <h2>Contact</h2>
         <p>
             To schedule a blasting, a free estimate, a consultation or just to chat, please <a href="http://www.davesblasting.ca/contact">contact us</a>.
         </p>
