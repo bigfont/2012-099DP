@@ -74,9 +74,32 @@ nav#sub-nav > ul.nav-tabs
 /* General Events
 ++++++++++++++++++++++++++++++++++++++++++ */
 
+/* Max Html Width
+------------------------- */
+@media (min-width:@htmlMaxWidth)
+{
+	div.affix-container
+	{
+		// use margin not padding,
+		// because padding is NOT compatile with min-height!!
+		margin-top:@mainNavbarStaticCorrection;		
+	}
+	nav.affix
+	{
+		top:@mainNavbarStaticCorrection;
+		// Derive this width
+		// 1. Open davesblasting.com in Firefox
+		// 2. Resize the viewport to @htmlMaxWidth
+		// 3. Use Firebug to determine the current width of nav.affix
+		// 4. Paste that width here:
+		width:517.8px; 
+	}
+}
+
+
 /* Before Navbar Collapses
 ------------------------- */
-@media (min-width:981px)
+@media (min-width:981px) and (max-width:@htmlMaxWidth)
 {
 	div.affix-container
 	{

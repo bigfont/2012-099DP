@@ -1,6 +1,16 @@
 /* General Events
 ++++++++++++++++++++++++++++++++++++++++++ */
 
+/* Max Html Width
+------------------------- */
+@media (min-width:@htmlMaxWidth)
+{
+	html
+	{
+		background-image:url('/assets-20/img/html-background.png');	
+	}
+}
+
 /* Before Navbar Collapses
 ------------------------- */
 @media (min-width:981px)
@@ -54,11 +64,15 @@
 ------------------------- */
 @media (min-width: 1200px) {
 
+	#body-testing(green);
+
 }
 
 /* Desktop
 ------------------------- */
 @media (max-width: 980px) {
+	
+	#body-testing(blue);
 
 }
 
