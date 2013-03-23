@@ -99,9 +99,13 @@
     <Content Include="assets-25\img\main-slideshow-3.jpg" />
     <Content Include="assets-25\img\safety-bird.jpg" />
     <Content Include="assets-25\js\01-jquery.js" />
+    <Content Include="assets-25\js\01-jquery.min.js" />
     <Content Include="assets-25\js\02-bootstrap.js" />
+    <Content Include="assets-25\js\02-bootstrap.min.js" />
     <Content Include="assets-25\js\03-bigfont.js" />
+    <Content Include="assets-25\js\03-bigfont.min.js" />
     <Content Include="assets-25\js\04-holder.js" />
+    <Content Include="assets-25\js\04-holder.min.js" />
     <Content Include="assets-25\video\DavesBlasting.flv" />
     <Content Include="assets-25\video\DavesBlasting.mp4" />
     <Content Include="assets-25\video\DavesBlasting.swf" />
@@ -129,6 +133,7 @@
     <Content Include="assets-25\less\bootstrap\tests\navbar-fixed-top.html" />
     <Content Include="assets-25\less\bootstrap\tests\navbar-static-top.html" />
     <Content Include="assets-25\less\bootstrap\tests\navbar.html" />
+    <Content Include="txt\jsmin.txt" />
     <Content Include="txt\lessc.txt" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

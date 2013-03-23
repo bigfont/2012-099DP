@@ -127,9 +127,9 @@
             </div>
         </div>
     </div>
-    <script src="/assets-25/js/01-jquery.js" type="text/javascript"></script>
-    <script src="/assets-25/js/02-bootstrap.js" type="text/javascript"></script>
-    <script src="/assets-25/js/03-bigfont.js" type="text/javascript"></script>
-    <script src="/assets-25/js/04-holder.js" type="text/javascript"></script>
+    <script src="/assets-25/js/01-jquery.min.js" type="text/javascript"></script>
+    <script src="/assets-25/js/02-bootstrap.min.js" type="text/javascript"></script>
+    <script src="/assets-25/js/03-bigfont.min.js" type="text/javascript"></script>
+    <script src="/assets-25/js/04-holder.min.js" type="text/javascript"></script>
 </body>
 </html>
