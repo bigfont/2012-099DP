@@ -3,7 +3,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphHead" runat="server">
 </asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="cphHeader" runat="server">
+<asp:Content ID="Content4" ContentPlaceHolderID="cphHeader" runat="server"> 
     <hgroup>
         <h1>Welcome
         </h1>
