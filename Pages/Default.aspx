@@ -26,14 +26,14 @@
         <h2>Services</h2>
         <p>
             Since 1978 we have carried out thousands of safe and successful blasts and have diversified into concrete 
-            cutting and coring and sub-terrain moling. Our base in on Salt Spring Island but our service area 
+            cutting and coring and sub-terrain moling. Our base is on Salt Spring Island but our <a href="http://www.davesblasting.ca/territory"> territory</a>
             extends through the Gulf Islands with occasional forays into Vancouver Island. 
         </p>
     </section>
     <section>
         <h2>About</h2>
         <p>
-            We have core of six full-time staff and a ready group of part-time temporary workers and sub-contractors. 
+            We have a core of six full-time staff and a ready group of part-time temporary workers and sub-contractors. 
             We work for the public-at-large and often sub-contract to builders, excavation contractors, BC Hydro, architects, 
             developers, and directly for the home owner. Captain Tom of Retreat Cove, Galianno, provides us with reliable, 
             on the spot, water Taxi service to your area.
