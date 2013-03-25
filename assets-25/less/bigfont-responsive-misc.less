@@ -18,15 +18,18 @@
 	{		
 		hgroup.affix
 		{
-			top:@navbarHeight;
-			
-			z-index:10;
+			top:@navbarHeight;						
 		}
 	}
 
 	div#main-content
 	{
-		margin-top:20px;
+
+		// add top padding for sub navigation intra page navigation
+		article > section, nav.affix-top
+		{
+			padding-top:@navbarHeight;
+		}
 
 		nav.affix
 		{
@@ -53,13 +56,16 @@
 		hgroup.affix
 		{
 			top:@navbarHeight;
-			z-index:10;
 		}
 	}
 
 	div#main-content
 	{
-		margin-top:20px;
+		// add top padding for sub navigation intra page navigation
+		article > section, nav.affix-top
+		{
+			padding-top:@navbarHeight;
+		}
 
 		nav.affix
 		{
@@ -81,6 +87,7 @@
 	{ 
 		margin-top:0; 
 	}
+
 	.navbar-fixed-top
 	{
 		margin-bottom:0;
@@ -91,14 +98,12 @@
 		hgroup.affix
 		{
 			top:0;
-			z-index:10;
 		}
 	}
 
 	div#main-content
 	{
 		margin-top:20px;
-
 		nav.affix
 		{
 			top:@hgroupHeight + 20px;
@@ -114,10 +119,12 @@
 @media (max-width:767px)
 {
 	#body-testing(yellow);
+
 	.navbar
 	{
 		margin:0;
 	}
+
 	.affix, .affix-top, .affix-bottom
 	{
 		position:static !important;
@@ -133,10 +140,16 @@
 
 	div#main-content
 	{
+		margin-top:20px;
 		position:static;
+
+		section
+		{
+			margin-top:20px;
+		}
+
 		nav.affix
-		{		
-			// width auto isn't entirely necessary.								
+		{									
 			width:auto; 
 			i.icon-chevron-right 
 			{ 
