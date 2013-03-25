@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dave's Blasting</title>
-    <link href="/assets-25/css/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/assets-25/css/responsive.css" rel="stylesheet" type="text/css" />
-    <link href="/assets-25/css/bigfont.css" rel="stylesheet" type="text/css" />
+    <link href="/assets-30/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="/assets-30/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="/assets-30/css/bigfont.css" rel="stylesheet" type="text/css" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -69,15 +69,15 @@
                         <div class="carousel-inner">
                             <div class="active item">
                                 <%--<div class="active item img-polaroid img-rounded">--%>
-                                <img src="../assets-25/img/main-slideshow-1.jpg" />
+                                <img src="../assets-30/img/main-slideshow-1.jpg" />
                             </div>
                             <div class="item">
                                 <%--<div class="item img-polaroid img-rounded">--%>
-                                <img src="../assets-25/img/main-slideshow-2.jpg" />
+                                <img src="../assets-30/img/main-slideshow-2.jpg" />
                             </div>
                             <div class="item">
                                 <%--<div class="item img-polaroid img-rounded">--%>
-                                <img src="../assets-25/img/main-slideshow-3.jpg" />
+                                <img src="../assets-30/img/main-slideshow-3.jpg" />
                             </div>
                         </div>
                     </div>
@@ -135,9 +135,9 @@
             </div>
         </div>
     </div>
-    <script src="/assets-25/js/01-jquery.min.js" type="text/javascript"></script>
-    <script src="/assets-25/js/02-bootstrap.min.js" type="text/javascript"></script>
-    <script src="/assets-25/js/03-bigfont.min.js" type="text/javascript"></script>
-    <script src="/assets-25/js/04-holder.min.js" type="text/javascript"></script>
+    <script src="/assets-30/js/01-jquery.min.js" type="text/javascript"></script>
+    <script src="/assets-30/js/02-bootstrap.min.js" type="text/javascript"></script>
+    <script src="/assets-30/js/03-bigfont.min.js" type="text/javascript"></script>
+    <script src="/assets-30/js/04-holder.min.js" type="text/javascript"></script>
 </body>
 </html>

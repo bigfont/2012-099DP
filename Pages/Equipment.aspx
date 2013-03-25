@@ -15,21 +15,21 @@
         <ul class="thumbnails">
             <li class="span4">
                 <div class="thumbnail">
-                    <img src="../assets-25/img/equipment-small-1.jpg" />
+                    <img src="../assets-30/img/equipment-small-1.jpg" />
                     <strong>Thumbnail label</strong>
                     <p>Thumbnail caption goes here and can be about this long...</p>
                 </div>
             </li>
             <li class="span4">
                 <div class="thumbnail">
-                    <img src="../assets-25/img/equipment-small-2.jpg" />
+                    <img src="../assets-30/img/equipment-small-2.jpg" />
                     <strong>Thumbnail label</strong>
                     <p>Thumbnail caption goes here and can be about this long...</p>
                 </div>
             </li>
             <li class="span4">
                 <div class="thumbnail">
-                    <img src="../assets-25/img/equipment-small-3.jpg" />
+                    <img src="../assets-30/img/equipment-small-3.jpg" />
                     <strong>Thumbnail label</strong>
                     <p>Thumbnail caption goes here and can be about this long...</p>
                 </div>
@@ -38,14 +38,14 @@
         <ul class="thumbnails">
             <li class="span6">
                 <div class="thumbnail">
-                    <img src="../assets-25/img/equipment-medium-1.jpg" />
+                    <img src="../assets-30/img/equipment-medium-1.jpg" />
                     <strong>Thumbnail label</strong>
                     <p>Thumbnail caption goes here and can be about this long...</p>
                 </div>
             </li>
             <li class="span6">
                 <div class="thumbnail">
-                    <img src="../assets-25/img/equipment-medium-2.jpg" />
+                    <img src="../assets-30/img/equipment-medium-2.jpg" />
                     <strong>Thumbnail label</strong>
                     <p>Thumbnail caption goes here and can be about this long...</p>
                 </div>
@@ -54,14 +54,14 @@
         <ul class="thumbnails">
             <li class="span6">
                 <div class="thumbnail">
-                    <img src="../assets-25/img/equipment-medium-3.jpg" />
+                    <img src="../assets-30/img/equipment-medium-3.jpg" />
                     <strong>Thumbnail label</strong>
                     <p>Thumbnail caption goes here and can be about this long...</p>
                 </div>
             </li>
             <li class="span6">
                 <div class="thumbnail">
-                    <img src="../assets-25/img/equipment-medium-4.jpg" />
+                    <img src="../assets-30/img/equipment-medium-4.jpg" />
                     <strong>Thumbnail label</strong>
                     <p>Thumbnail caption goes here and can be about this long...</p>
                 </div>
@@ -70,14 +70,14 @@
         <ul class="thumbnails">
             <li class="span6">
                 <div class="thumbnail">
-                    <img src="../assets-25/img/equipment-medium-5.jpg" />
+                    <img src="../assets-30/img/equipment-medium-5.jpg" />
                     <strong>Thumbnail label</strong>
                     <p>Thumbnail caption goes here and can be about this long...</p>
                 </div>
             </li>
             <li class="span6">
                 <div class="thumbnail">
-                    <img src="../assets-25/img/equipment-medium-6.jpg" />
+                    <img src="../assets-30/img/equipment-medium-6.jpg" />
                     <strong>Thumbnail label</strong>
                     <p>Thumbnail caption goes here and can be about this long...</p>
                 </div>
@@ -86,16 +86,7 @@
         <ul class="thumbnails">
             <li class="span6">
                 <div class="thumbnail">
-                    <img src="../assets-25/img/equipment-medium-7.jpg" />
-                    <strong>Thumbnail label</strong>
-                    <p>Thumbnail caption goes here and can be about this long...</p>
-                </div>
-            </li>
-        </ul>
-        <ul class="thumbnails">
-            <li class="span12">
-                <div class="thumbnail">
-                    <img src="../assets-25/img/equipment-large-1.jpg" />
+                    <img src="../assets-30/img/equipment-medium-7.jpg" />
                     <strong>Thumbnail label</strong>
                     <p>Thumbnail caption goes here and can be about this long...</p>
                 </div>
@@ -104,7 +95,7 @@
         <ul class="thumbnails">
             <li class="span12">
                 <div class="thumbnail">
-                    <img src="../assets-25/img/equipment-large-2.jpg" />
+                    <img src="../assets-30/img/equipment-large-1.jpg" />
                     <strong>Thumbnail label</strong>
                     <p>Thumbnail caption goes here and can be about this long...</p>
                 </div>
@@ -113,7 +104,16 @@
         <ul class="thumbnails">
             <li class="span12">
                 <div class="thumbnail">
-                    <img src="../assets-25/img/equipment-large-3.jpg" />
+                    <img src="../assets-30/img/equipment-large-2.jpg" />
+                    <strong>Thumbnail label</strong>
+                    <p>Thumbnail caption goes here and can be about this long...</p>
+                </div>
+            </li>
+        </ul>
+        <ul class="thumbnails">
+            <li class="span12">
+                <div class="thumbnail">
+                    <img src="../assets-30/img/equipment-large-3.jpg" />
                     <strong>Thumbnail label</strong>
                     <p>Thumbnail caption goes here and can be about this long...</p>
                 </div>
