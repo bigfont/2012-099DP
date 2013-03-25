@@ -10,10 +10,6 @@
     <li class="tab"><a href="#question1">Question 1</a></li>
     <li class="tab"><a href="#question2">Question 2</a></li>
     <li class="tab"><a href="#question3">Question 3</a></li>
-    <li class="tab"><a href="#question4">Question 4</a></li>
-    <li class="tab"><a href="#question5">Question 5</a></li>
-    <li class="tab"><a href="#question6">Question 6</a></li>
-    <li class="tab"><a href="#question7">Question 7</a></li>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section id="question1">

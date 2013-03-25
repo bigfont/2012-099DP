@@ -11,14 +11,15 @@
 	// add a background html image only when it will be visible
 	html
 	{	
-		background-image:url('/assets-30/img/html-background.png');	
+		background-image:url('/assets-35/img/html-background.png');	
 	}
 
 	header#header-content
 	{		
 		hgroup.affix
 		{
-			top:@navbarHeight;						
+			top:@navbarHeight;
+			width:@htmlMaxWidth;
 		}
 	}
 
@@ -26,9 +27,14 @@
 	{
 
 		// add top padding for sub navigation intra page navigation
-		article > section, nav.affix-top
+		article > section
 		{
-			padding-top:@navbarHeight;
+			padding-top:@navbarHeight + @hgroupHeight + 20px;
+		}
+
+		nav.affix-top
+		{
+			padding-top:@navbarHeight + @hgroupHeight;
 		}
 
 		nav.affix
@@ -56,15 +62,21 @@
 		hgroup.affix
 		{
 			top:@navbarHeight;
+			width:100%;
 		}
 	}
 
 	div#main-content
 	{
 		// add top padding for sub navigation intra page navigation
-		article > section, nav.affix-top
+		article > section
 		{
-			padding-top:@navbarHeight;
+			padding-top:@navbarHeight + @hgroupHeight + 20px;
+		}
+
+		nav.affix-top
+		{
+			padding-top:@navbarHeight + @hgroupHeight;
 		}
 
 		nav.affix
@@ -98,12 +110,23 @@
 		hgroup.affix
 		{
 			top:0;
+			width:100%;
 		}
 	}
 
 	div#main-content
 	{
-		margin-top:20px;
+		// add top padding for sub navigation intra page navigation
+		article > section
+		{
+			padding-top:@navbarHeight + @hgroupHeight + 20px;
+		}
+
+		nav.affix-top
+		{
+			padding-top:@navbarHeight + @hgroupHeight;
+		}
+
 		nav.affix
 		{
 			top:@hgroupHeight + 20px;
@@ -130,22 +153,14 @@
 		position:static !important;
 	}
 
-	header#header-content
-	{		
-		hgroup.affix-top
-		{
-			background:brown;
-		}
-	}
-
 	div#main-content
 	{
-		margin-top:20px;
 		position:static;
 
-		section
+		article > section, nav.affix-top
 		{
 			margin-top:20px;
+			padding:0;
 		}
 
 		nav.affix
