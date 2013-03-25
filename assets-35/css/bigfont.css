@@ -28,7 +28,7 @@ div#footer-content{height:400px;}
 body,body>div.navbar{max-width:1350px;margin:auto;}
 strong{color:#e65c00;}
 q{font-style:italic;}
-span.quote-author{font-weight:bold;}
+span.quote-author{font-weight:bold;padding:15px 0;display:block;}
 dl{margin-top:0;}
 small{display:block;}
 address label{font-weight:bold;}
