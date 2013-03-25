@@ -4,9 +4,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="cphHead" runat="server">
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphHeader" runat="server">
-    <hgroup>
         <h1>Frequently Asked Questions</h1>
-    </hgroup>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
     <li class="tab"><a href="#question1">Question 1</a></li>

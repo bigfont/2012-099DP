@@ -4,8 +4,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="cphHead" runat="server">
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphHeader" runat="server">
-    <hgroup><h1>
-        Rates</h1></hgroup>
+    <h1>
+        Rates</h1>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
     <li class="tab"><a href="#estimates">Estimates</a></li>

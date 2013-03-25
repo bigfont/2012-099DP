@@ -4,8 +4,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="cphHead" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphHeader" runat="server">
-    <hgroup><h1>
-        Community Projects</h1></hgroup>
+<h1>
+        Community Projects</h1>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphSubnav" runat="server">
 </asp:Content>
