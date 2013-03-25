@@ -9,18 +9,29 @@ header#header-content
 		padding:0;
 	}	
 	hgroup
-	{
-		background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
-		padding:0 1%;
-		position: relative;
-		width: 98%;
-		bottom: 60px;
+	{		
+		padding:0;
+		padding-left:10px;
+		width:@htmlMaxWidth - 10px;
 		h1 
 		{
+			line-height:@hgroupHeight;
 			padding:0;
 			margin:0;
 			color:@secondaryColorA;
 		}
+		&.affix-top
+		{
+			bottom:@hgroupHeight;
+			position: relative;
+			background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+		}
+		&.affix
+		{
+			top:@navbarHeight;
+			background:brown;
+		}
+
 	}
 }
 
@@ -28,7 +39,6 @@ header#header-content
 ------------------------- */
 @media (max-width:767px)
 {
-
 	header#header-content
 	{
 		hgroup

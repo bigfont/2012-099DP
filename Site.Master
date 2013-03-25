@@ -85,14 +85,13 @@
             </div>
             <div class="row-fluid">
                 <div class="span12">
-                    <hgroup>
+                    <hgroup data-offset-top="160" data-spy="affix">
                         <asp:ContentPlaceHolder ID="cphHeader" runat="server">
                         </asp:ContentPlaceHolder>
                     </hgroup>
                 </div>
             </div>
         </div>
-
     </header>
     <%--Main bootstrap container--%>
     <div id="main-content" class="container-fluid">

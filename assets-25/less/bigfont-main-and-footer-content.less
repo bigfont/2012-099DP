@@ -13,11 +13,16 @@
 // ----------------------------
 div#main-content
 {	    
-	position:relative;
-	bottom:80px;	
-	section
+	article
 	{
-		padding-top:40px;
+		:first-child
+		{
+			margin-top:0;
+			padding-top:0;
+		}
+	}
+	section
+	{		
 		div.media
 		{
 			margin-top:15px;
@@ -35,16 +40,6 @@ div#main-content
 		{
 			padding-bottom:20px;
 		}
-	}
-}
-
-/* After Spans Stack
-------------------------- */
-@media (max-width:767px)
-{
-	div#main-content
-	{	    
-		position:static;
 	}
 }
 
