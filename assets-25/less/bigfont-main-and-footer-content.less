@@ -13,6 +13,12 @@
 // ----------------------------
 div#main-content
 {	    
+	
+	// correct for the relatively placed hgroup
+	position:relative;
+	bottom:@hgroupHeight;
+
+	// prevent top spacing for the first section header of the article
 	article
 	{
 		:first-child
@@ -21,20 +27,13 @@ div#main-content
 			padding-top:0;
 		}
 	}
+
+
 	section
 	{		
 		div.media
 		{
 			margin-top:15px;
-		}
-		section
-		{
-			// sub-sections shall have half the padding, or so
-			padding-top:25px;
-			&:first-of-type
-			{
-				padding-top:0 !important;
-			}
 		}
 		hgroup
 		{
