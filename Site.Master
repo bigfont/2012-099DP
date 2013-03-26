@@ -131,7 +131,7 @@
             <div class="span5">
             </div>
             <div class="span7">
-                <a href="#top">Return to Top</a>
+                <a class="btn btn-primary" href="#top">Return to Top</a>
             </div>
         </div>
     </div>
