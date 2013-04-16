@@ -5,41 +5,50 @@ figure {
     /* to shrinkwrap - inline-block does this too, but with extra vertical and horizontal margins around the element */
     display: inline-block;
     /* make inline-block always within viewport width */
-    max-width:90%;
-    margin:40px 5% 0 5%;
+    max-width: 90%;
+    margin: 40px 5% 0 5%;
     /* remove unwanted margin at the base of an inline-block */
     vertical-align: bottom;
 
-    /* figures that are awesome to behold
-    -------------------------------------------------- */
-    &.awesome {
+    &.fig-awesome, &.fig-video {
 
-        > *:first-child {
+        > * {
             /*first child may be img,  video, or other*/
             .box-shadow(0 0 10px 10px @primaryColor);
         }
 
         figcaption {
-            text-align: center;
-            font-size: 30px;
-            font-weight: bolder;
-            margin-top: 30px;
+            
+            box-shadow:none;
             border: none;
+            margin-top: 30px;
+
+            h1 {
+                font-weight: bolder;
+            }                                                
+        }
+    }
+    /* figures that are awesome to behold
+    -------------------------------------------------- */
+    &.fig-awesome {
+
+        figcaption {
+            text-align: center;
         }
     }
     /* figures in paragraphs
     -------------------------------------------------- */
-    &.figure-in-paragraph {
+    &.fig-in-paragraph {
         display: table;
         width: auto;
         margin: 0;
 
-        &.figure-in-paragraph-left {
+        &.fig-in-paragraph-left {
             float: left;
             margin-right: 15px;
         }
 
-        &.figure-in-paragraph-right {
+        &.fig-in-paragraph-right {
             float: right;
             margin-left: 15px;
         }
