@@ -22,7 +22,7 @@
         </p>
         <figure class="awesome">
             <img src="../assets-35/img/tamrock.JPG" />
-            <figcaption>I Love the Tamrock</figcaption>
+            <figcaption>We Love the Tamrock</figcaption>
         </figure>
         
     </section>
