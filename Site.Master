@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dave's Blasting</title>
-    <link href="/assets-35/css/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/assets-35/css/responsive.css" rel="stylesheet" type="text/css" />
-    <link href="/assets-35/css/bigfont.css" rel="stylesheet" type="text/css" />
+    <link href="/assets-40/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="/assets-40/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="/assets-40/css/bigfont.css" rel="stylesheet" type="text/css" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -69,15 +69,15 @@
                         <div class="carousel-inner">
                             <div class="active item">
                                 <%--<div class="active item img-polaroid img-rounded">--%>
-                                <img src="../assets-35/img/main-slideshow-1.jpg" />
+                                <img src="../assets-40/img/main-slideshow-1.jpg" />
                             </div>
                             <div class="item">
                                 <%--<div class="item img-polaroid img-rounded">--%>
-                                <img src="../assets-35/img/main-slideshow-2.jpg" />
+                                <img src="../assets-40/img/main-slideshow-2.jpg" />
                             </div>
                             <div class="item">
                                 <%--<div class="item img-polaroid img-rounded">--%>
-                                <img src="../assets-35/img/main-slideshow-3.jpg" />
+                                <img src="../assets-40/img/main-slideshow-3.jpg" />
                             </div>
                         </div>
                     </div>
@@ -98,16 +98,16 @@
         <div class="row-fluid">
             <%--Column--%>
             <div class="span5 affix-container">
-                <nav id="sub-nav" data-offset-top="160" data-spy="affix" >
+                <nav id="sub-nav" data-offset-top="160" data-spy="affix">
                     <ul class="nav nav-tabs nav-stacked">
                         <li class="tab contact">
-                            <div><i class="icon-bell"></i>250-537-2618 (Ph/Fax)</div>
+                            <a href="tel:+1-250-538-8640"><i class="icon-bell"></i>250-538-8640 (Callum)</a>
                         </li>
                         <li class="tab contact">
-                            <div><i class="icon-bell"></i>250-538-8640 (Callum)</div>
+                            <a href="tel:+1-250-537-2618"><i class="icon-bell"></i>250-537-2618 (Ph/Fax)</a>
                         </li>
                         <li class="tab contact">
-                            <div><a href="mailto:dave@davesblasting.com"><i class="icon-envelope"></i>dave@davesblasting.com</a></div>
+                            <a href="mailto:dave@davesblasting.com"><i class="icon-envelope"></i>dave@davesblasting.com</a>
                         </li>
                         <asp:ContentPlaceHolder ID="cphSubnav" runat="server">
                         </asp:ContentPlaceHolder>
@@ -135,9 +135,9 @@
             </div>
         </div>
     </div>
-    <script src="/assets-35/js/01-jquery.min.js" type="text/javascript"></script>
-    <script src="/assets-35/js/02-bootstrap.min.js" type="text/javascript"></script>
-    <script src="/assets-35/js/03-bigfont.min.js" type="text/javascript"></script>
-    <script src="/assets-35/js/04-holder.min.js" type="text/javascript"></script>
+    <script src="/assets-40/js/01-jquery.min.js" type="text/javascript"></script>
+    <script src="/assets-40/js/02-bootstrap.min.js" type="text/javascript"></script>
+    <script src="/assets-40/js/03-bigfont.min.js" type="text/javascript"></script>
+    <script src="/assets-40/js/04-holder.min.js" type="text/javascript"></script>
 </body>
 </html>

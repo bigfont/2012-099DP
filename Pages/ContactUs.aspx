@@ -21,34 +21,34 @@
             Canada, V8K 1N4<br>
         </address>
         <address class="well">
-            <i class="icon-envelope"></i>dave@davesblasting.com<br>
+            <a href="tel:+1-"><i class="icon-envelope"></i>dave@davesblasting.com</a><br>
         </address>
     </section>
     <section id="phone-fax">
         <h1>Phone & Fax</h1>
         <address class="well">
             <strong>Home Office</strong><br>
-            <i class="icon-bell"></i>250-537-2618
+            <a href="tel:+1-250-537-2618"><i class="icon-bell"></i>250-537-2618</a>
         </address>
         <address class="well">
             <strong>Shop</strong><br>
-            <i class="icon-bell"></i>250-931-SHOP
+            <a href="tel:+1-250-931-7467"><i class="icon-bell"></i>250-931-SHOP (7467)</a>
         </address>
         <address class="well">
             <strong>Fax</strong><br>
-            <i class="icon-bell"></i>250-537-2618
+            <a href="tel:+1-250-537-2618"><i class="icon-bell"></i>250-537-2618</a>
         </address>
         <address class="well">
             <strong>For real action call Callum</strong><br>
-            <i class="icon-bell"></i>250-538-8640
+            <a href="tel:+1-250-538-8640"><i class="icon-bell"></i>250-538-8640</a>
         </address>
         <address class="well">
             <strong>For mechanical call Terry</strong><br>
-            <i class="icon-bell"></i>250-538-7207
+            <a href="tel:+1-250-538-7207"><i class="icon-bell"></i>250-538-7207</a>
         </address>
         <address class="well">
             <strong>For a chat with Dave call</strong><br>
-            <i class="icon-bell"></i>250-537-7481    
+            <a href="tel:+1-250-537-7481"><i class="icon-bell"></i>250-537-7481</a>    
         </address>
     </section>
 </asp:Content>

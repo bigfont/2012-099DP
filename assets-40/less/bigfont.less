@@ -1,0 +1,72 @@
+﻿
+@import "bootstrap/mixins.less";
+@import "bootstrap/variables.less";
+
+@import "bigfont-mixins.less";
+@import "bigfont-variables.less";
+@import "bigfont-affix.less";
+@import "bigfont-header.less";
+@import "bigfont-main-and-footer-content.less";
+@import "bigfont-google-map.less";
+@import "bigfont-imgs.less";
+@import "bigfont-responsive-misc.less";
+
+// ----------------------------
+// layout
+// ----------------------------
+body {
+    padding: 0; // un-pad the body
+}
+
+    body, body > div.navbar {
+        max-width: 1350px;
+        margin: auto;
+    }
+
+div#main-content {
+    /*set the z-index below an element that has fixed position*/
+    /*see also http://stackoverflow.com/questions/5218927/z-index-not-working-with-fixed-positioning*/
+    position: relative;
+    z-index: 0;
+}
+
+// ----------------------------
+// typography
+// ----------------------------
+strong {
+    color: @headingsColor;
+}
+
+q {
+    font-style: italic;
+}
+
+span.quote-author {
+    font-weight: bold;
+    padding: 15px 0;
+    display: block;
+}
+
+dl {
+    // remove bootstrap default top padding
+    margin-top: 0;
+}
+
+small {
+    display: block;
+}
+
+address {
+    label {
+        font-weight: bold;
+    }
+
+    i {
+        margin-right: 6px !important;
+        margin-top: 6px !important;
+    }
+}
+
+.center-text {
+    text-align: center;
+}

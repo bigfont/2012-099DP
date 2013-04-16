@@ -15,7 +15,7 @@
             <h1>Safety Policies
             </h1>
         <figure class="figure-in-paragraph figure-in-paragraph-left img-polaroid"> 
-            <img src="../assets-35/img/safety-bird.jpg">
+            <img src="../assets-40/img/safety-bird.jpg">
             <figcaption class="center-text"><strong>Safety First</strong></figcaption>
         </figure>
         <p>All of our crew are TDG (transportation of dangerous goods) certified.</p>

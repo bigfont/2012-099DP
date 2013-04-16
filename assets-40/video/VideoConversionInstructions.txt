@@ -1,0 +1,24 @@
+1. Download and install Any Video Converter Free.
+
+(avc-free.exe)
+
+2. Open Any Video Converter.
+
+3. Add the video you want to convert.
+
+4. Click the button just beside the Preset Output message.
+
+5. Choose the video output that you want.
+
+6. Click Convert All Now!
+
+7. Repeat for each video format.
+
+-----------------------------
+These are the formats to which to convert. 
+
+HTML5 > .ogv
+HTML5 > .webm
+HTML5 > .mp4
+Flash > .swf
+Flash > .flv

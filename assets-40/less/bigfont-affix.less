@@ -1,0 +1,44 @@
+/* sub navigation
+-------------------------------------------------- */
+div.affix-container {
+    // When the div's content takes on fixed positioning, the div becomes empty and thus takes up no space.
+    // So, we give it min-height:1px ensure it still takes up width to hold its column.
+    margin: 0px;
+    padding: 0px;
+    min-height: 1px !important;
+}
+
+nav#sub-nav > ul.nav-tabs {
+    margin: 0px;
+    padding: 0px;
+
+    i.icon-chevron-right {
+        float: right;
+        display: block;
+        margin-top: 12px;
+        opacity: 0.25; // this is an icon; its opacity fails on IE 8; that's OK.
+    }
+
+    li.tab {
+        white-space: nowrap;
+
+        > a {
+            margin-left: 5px;
+            margin-right: 5px;
+            padding: 10px 12px;
+        }
+
+        &.active > a {
+            background: @secondaryColorA;
+            color: @black;
+        }
+
+        &.contact {
+            // for the contact info icons
+            i {
+                margin-right: 6px;
+                margin-top: 6px;
+            }
+        }
+    }
+}
