@@ -4,10 +4,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="cphHead" runat="server">
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphHeader" runat="server">
-        <h1>Skills & Experience</h1>
+    <h1>Skills & Experience</h1>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
     <li class="tab"><a href="#projects">Past Projects</a></li>
+    <li class="tab"><a href="#capabilities">Capabilities</a></li>
     <li class="tab"><a href="#testimonials">Testimonials</a></li>
     <li class="tab"><a href="#clients">Client List</a></li>
     <li class="tab"><a href="#certifications">Certifications</a></li>
@@ -33,6 +34,29 @@
             <div class="span6">
                 <strong>BC Hydro</strong>
                 <p>Blasted primarily pole holes.</p>
+            </div>
+        </div>
+    </section>
+    <section id="capabilities">
+        <h1>Capabilities</h1>
+        <div class="row-fluid">
+            <div class="span12">
+                <dl>
+                    <dt>Concrete & Asphault Cutting & Coring</dt>
+                    <dd>We can do long strips.</dd>
+                    <dt>Breaker Hammer (Jack Hammer)</dt>
+                    <dd>What kind of drills? </dd>
+                    <dd>How deep can you go?</dd>
+                    <dt>Drilling</dt>
+                    <dd></dd>
+                    <dt>Hand Digging up to Seven Feet</dt>
+                    <dd>Pole holes near services where machines can not get to.</dd>
+                    <dd>We have shovels up to ten feet in length.</dd>
+                    <dt>Mole Hole</dt>
+                    <dd>Diameter 3.5 inches.</dd>
+                    <dd>Ideal for electrical, water, and gas lines.</dd>
+                    <dd>This is for sub-earth penetration; provides road crossing without excavation.</dd>
+                </dl>
             </div>
         </div>
     </section>

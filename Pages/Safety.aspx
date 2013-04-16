@@ -18,16 +18,10 @@
             <img src="../assets-35/img/safety-bird.jpg">
             <figcaption class="center-text"><strong>Safety First</strong></figcaption>
         </figure>
-        <p>                
-            Art party swag shoreditch pop-up, squid sapiente commodo synth bushwick aesthetic
-            blog direct trade polaroid. Tattooed kale chips dreamcatcher, hella twee 3 wolf
-            moon in. Lomo art party delectus wes anderson ut messenger bag. Laborum cred duis,
-            wayfarers cray sriracha tumblr banh mi etsy williamsburg synth. Ea street art tofu
-            odio mlkshk chambray bushwick, aute enim dolor cliche. Terry richardson post-ironic
-            culpa nostrud, brooklyn pour-over fugiat trust fund DIY cred kogi proident hoodie
-            deserunt. Photo booth skateboard marfa, high life mixtape lo-fi freegan.
-        </p>
-        
+        <p>All of our crew are TDG (transportation of dangerous goods) certified.</p>
+        <p>Recent course was provided by David Sly of Maple Leaf Powder.</p>
+        <p>All of our staff are covered under WCB (workers compensation board). WCB #244276.</p>        
+        <p>We meet or exceed WCB and BC Hydro safety requirements. For example, high visibility vest, hard hats, ear protection, resperatory protection masks (respire). All of our crew wears appropriate safety gear.</p>
     </section>
     <section id="record">
             <h1>Safety Record

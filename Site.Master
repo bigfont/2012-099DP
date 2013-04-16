@@ -98,7 +98,7 @@
         <div class="row-fluid">
             <%--Column--%>
             <div class="span5 affix-container">
-                <nav id="sub-nav" data-offset-top="160" data-spy="affix">
+                <nav id="sub-nav" data-offset-top="160" data-spy="affix" >
                     <ul class="nav nav-tabs nav-stacked">
                         <li class="tab contact">
                             <div><i class="icon-bell"></i>250-537-2618 (Ph/Fax)</div>
