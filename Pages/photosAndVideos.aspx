@@ -11,7 +11,7 @@
 <asp:Content ID="Content4" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section>
         <h1>Videos</h1>
-        <figure>
+        <figure class="awesome">
             <video width="480px" height="360px" controls>
                 <%--Make sure to add a configuration > system.webServer > staticContent > mimeMap entry for .ogv AND .webm file extensions--%>
                 <source src="../assets-35/video/DavesBlasting.mp4" type="video/mp4" />

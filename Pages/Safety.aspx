@@ -14,7 +14,7 @@
     <section id="policies">
             <h1>Safety Policies
             </h1>
-        <figure class="in-paragraph-left img-polaroid"> 
+        <figure class="figure-in-paragraph figure-in-paragraph-left img-polaroid"> 
             <img src="../assets-35/img/safety-bird.jpg">
             <figcaption class="center-text"><strong>Safety First</strong></figcaption>
         </figure>

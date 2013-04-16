@@ -98,6 +98,7 @@
     <Content Include="assets-35\img\main-slideshow-2.jpg" />
     <Content Include="assets-35\img\main-slideshow-3.jpg" />
     <Content Include="assets-35\img\safety-bird.jpg" />
+    <Content Include="assets-35\img\tamrock.JPG" />
     <Content Include="assets-35\js\01-jquery.js" />
     <Content Include="assets-35\js\01-jquery.min.js" />
     <Content Include="assets-35\js\02-bootstrap.js" />

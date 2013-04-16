@@ -20,6 +20,11 @@
             who trained him and got him started. We are courteous, friendly, reliable, well-trained, fully insured,
             and up to date with WCB, Transport Canada, and the Mines, Energy and Explosives requirements thereof. 
         </p>
+        <figure class="awesome">
+            <img src="../assets-35/img/tamrock.JPG" />
+            <figcaption>I Love the Tamrock</figcaption>
+        </figure>
+        
     </section>
     <section id="services">
         <h2>Services</h2>
