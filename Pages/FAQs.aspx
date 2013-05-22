@@ -7,9 +7,7 @@
         <h1>Frequently Asked Questions</h1>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
-    <li class="tab"><a href="#question1">Question 1</a></li>
-    <li class="tab"><a href="#question2">Question 2</a></li>
-    <li class="tab"><a href="#question3">Question 3</a></li>
+
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section id="question1">

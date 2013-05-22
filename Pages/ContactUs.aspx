@@ -8,8 +8,7 @@
     </h1>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphSubnav" runat="server">
-    <li class="tab"><a href="#mail-email">Mail & Email</a></li>
-    <li class="tab"><a href="#phone-fax">Phone & Fax</a></li>
+
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section id="mail-email">

@@ -7,8 +7,7 @@
     <h1>Shop & Schwag</h1>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphSubnav" runat="server">
-    <li class="tab"><a href="#shirts">Shirts</a></li>
-    <li class="tab"><a href="#rock-dust">Rock Dust</a></li>
+
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section id="shirts">

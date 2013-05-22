@@ -7,15 +7,14 @@
     <h1>Safety</h1>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
-    <li class="tab"><a href="#policies">Safety Policies</a></li>
-    <li class="tab"><a href="#record">Safety Record</a></li>
+
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section id="policies">
         <h1>Safety Policies
         </h1>
         <%--<figure class="fig-in-paragraph fig-in-paragraph-left img-polaroid">
-            <img src="../assets-40/img/safety-bird.jpg">
+            <img src="../assets-45/img/safety-bird.jpg">
             <figcaption class="center-text"><strong>Safety First</strong></figcaption>
         </figure>--%>
         <p>All of our crew are TDG (transportation of dangerous goods) certified.</p>

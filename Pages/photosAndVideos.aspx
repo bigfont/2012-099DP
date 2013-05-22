@@ -7,8 +7,6 @@
     <h1>Photos & Videos</h1>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphSubnav" runat="server">
-    <li class="tab"><a href="#videos">Videos</a></li>
-    <li class="tab"><a href="#pictures">Pictures</a></li>
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section id="videos">
@@ -21,9 +19,9 @@
             <video width="480px" height="360px" controls>
 
                 <%--Make sure to add a configuration > system.webServer > staticContent > mimeMap entry for .ogv AND .webm file extensions--%>
-                <source src="../assets-40/video/DavesBlasting.mp4" type="video/mp4" />
-                <source src="../assets-40/video/DavesBlasting.ogv" type="video/ogg" />
-                <source src="../assets-40/video/DavesBlasting.webm" type="video/webm" />
+                <source src="../assets-45/video/DavesBlasting.mp4" type="video/mp4" />
+                <source src="../assets-45/video/DavesBlasting.ogv" type="video/ogg" />
+                <source src="../assets-45/video/DavesBlasting.webm" type="video/webm" />
                 <p>Your browser can’t play HTML5 video.</p>
             </video>
         </figure>

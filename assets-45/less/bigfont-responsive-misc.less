@@ -6,7 +6,7 @@
 @media (min-width:@htmlMaxWidth) {
     // add a background html image only when it will be visible
     html {
-        background-image: url('/assets-40/img/html-background.png');
+        background-image: url('/assets-45/img/html-background.png');
     }
     // affix the header content and set its width
     header#header-content {
@@ -19,14 +19,17 @@
     div#main-content {
         // add top padding for sub navigation
         article > section {
-            padding-top: @navbarHeight + @hgroupHeight + 20px;
+            padding-top: @navbarHeight + 20px;
+            margin-top:@hgroupHeight;
         }
 
         nav {
-            padding-top: @navbarHeight + @hgroupHeight;
+            padding-top: @navbarHeight + 20px;
+            margin-top:@hgroupHeight;
 
             &.affix {
-                top: 20px;
+                margin:0;
+                top:0;
                 // Derive this width
                 // 1. Open davesblasting.com in Firefox
                 // 2. Resize the viewport to @htmlMaxWidth

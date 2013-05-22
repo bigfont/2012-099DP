@@ -3,6 +3,31 @@
     'use strict';
     /*global $:false, document:false, window:false */
 
+    function initializeTheEquipmentList()
+    {        
+        if (window.location.toString().toLowerCase().indexOf("equipment") >= 0)
+        {
+            var stringToAppend, text, items;
+
+            items = $('strong.equipment-item');
+            stringToAppend = '';
+
+            items.each(function (i) {
+                stringToAppend += $(this).text();
+
+                if (i !== items.length - 1) {
+                    stringToAppend += ', ';
+                }
+                else {
+                    stringToAppend += '.';
+                }
+            });
+
+
+            $('p.equipment-list').append($('<span/>', { text: stringToAppend }));
+        }
+    }
+
     function initializeTheSubnavigation()
     {
         var ul, items, li, a, href, text, headings, h1;
@@ -10,8 +35,8 @@
         // get all the headings
         headings = $('section h1');
 
-        // only add the subnav if we have three or more sections
-        if (headings.length < 3)
+        // only add the subnav if we have two or more sections
+        if (headings.length < 2)
         {
             return;
         }
@@ -73,6 +98,7 @@
         initializeTheCarousel();
         addHorizontalRuleAfterEachSection();
         initializeTheSubnavigation();
+        initializeTheEquipmentList();
 
     });
 

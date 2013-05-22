@@ -22,7 +22,7 @@ nav#sub-nav > ul.nav-tabs {
     li.tab {
         white-space: nowrap;
 
-        > a {
+        > a, > p {
             margin-left: 5px;
             margin-right: 5px;
             padding: 2px 12px;
@@ -38,6 +38,17 @@ nav#sub-nav > ul.nav-tabs {
             i {
                 margin-right: 6px;
                 margin-top: 6px;
+            }
+        }
+
+        &.content {
+            // for content that is sometimes off to the side
+            white-space: normal;
+
+            a, a:hover {
+                color: black;
+                background:white;
+                border-color:#FFC40D;
             }
         }
     }
