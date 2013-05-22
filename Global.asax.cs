@@ -62,7 +62,7 @@ namespace DavesBlasting
             RegisterRoute("photos", "photos-and-videos", "~/pages/photosAndVideos.aspx");
             RegisterRoute("safety", "safety", "~/pages/safety.aspx");
             RegisterRoute("shop", "shop", "~/pages/shopAndShwag.aspx");
-            RegisterRoute("skills", "skills", "~/pages/skillsAndExperience.aspx");
+            RegisterRoute("services", "services", "~/pages/services.aspx");
             RegisterRoute("territory", "territory", "~/pages/territory.aspx");
         }
         /// <summary>

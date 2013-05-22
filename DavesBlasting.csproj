@@ -122,7 +122,7 @@
     <Content Include="pages\photosAndVideos.aspx" />
     <Content Include="pages\safety.aspx" />
     <Content Include="pages\shopAndShwag.aspx" />
-    <Content Include="pages\skillsAndExperience.aspx" />
+    <Content Include="pages\services.aspx" />
     <Content Include="pages\territory.aspx" />
     <Content Include="assets-40\less\bootstrap\tests\buttons.html" />
     <Content Include="assets-40\less\bootstrap\tests\css-tests.css" />
@@ -134,6 +134,7 @@
     <Content Include="assets-40\less\bootstrap\tests\navbar.html" />
     <Content Include="txt\jsmin.txt" />
     <Content Include="txt\lessc.txt" />
+    <Content Include="txt\temp.txt" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -205,12 +206,12 @@
     <Compile Include="pages\shopAndShwag.aspx.designer.cs">
       <DependentUpon>shopAndShwag.aspx</DependentUpon>
     </Compile>
-    <Compile Include="pages\skillsAndExperience.aspx.cs">
-      <DependentUpon>skillsAndExperience.aspx</DependentUpon>
+    <Compile Include="pages\services.aspx.cs">
+      <DependentUpon>services.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="pages\skillsAndExperience.aspx.designer.cs">
-      <DependentUpon>skillsAndExperience.aspx</DependentUpon>
+    <Compile Include="pages\services.aspx.designer.cs">
+      <DependentUpon>services.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\territory.aspx.cs">
       <DependentUpon>territory.aspx</DependentUpon>

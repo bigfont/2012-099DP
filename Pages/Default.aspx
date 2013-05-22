@@ -26,7 +26,7 @@
         <h2>Services</h2>
         <p>
             Since 1978 we have carried out thousands of safe and successful blasts and have diversified into concrete 
-            cutting and coring and sub-terrain moling. Our base is on Salt Spring Island but our <a href="http://www.davesblasting.ca/territory">territory</a>
+            cutting and coring and sub-terrain moling. Our base is on Salt Spring Island but our <a href="../territory">territory</a>
             extends through the Gulf Islands with occasional forays into Vancouver Island. 
         </p>
     </section>
@@ -42,7 +42,7 @@
     <section id="contact">
         <h2>Contact</h2>
         <p>
-            To schedule a blasting, a free estimate, a consultation or just to chat, please <a href="http://www.davesblasting.ca/contact">contact us</a>.
+            To schedule a blasting, a free estimate, a consultation or just to chat, please <a href="../contact">contact us</a>.
         </p>
     </section>
 </asp:Content>
