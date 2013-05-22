@@ -7,8 +7,6 @@
     <h1>Services</h1>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
-    <%--    <li class="tab"><a href="#experienced">Experienced</a></li>--%>
-    <li id="placeholder" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
 

@@ -32,12 +32,12 @@
                         <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Blasting
                             & Services <b class="caret"></b></a>
                             <ul class="dropdown-menu">--%>
-                                <li class=""><a href="../services">Services</a></li>
-                                <li class=""><a href="../territory">Territory</a></li>
-                                <li class=""><a href="../equipment">Equipment</a></li>
-                                <li class=""><a href="../people">People</a></li>
-                                <li class=""><a href="../safety">Safety</a></li>
-                            <%--</ul>
+                        <li class=""><a href="../services">Services</a></li>
+                        <li class=""><a href="../territory">Territory</a></li>
+                        <li class=""><a href="../equipment">Equipment</a></li>
+                        <li class=""><a href="../people">People</a></li>
+                        <li class=""><a href="../safety">Safety</a></li>
+                        <%--</ul>
                         </li>
                         End drop down--%>
                         <%--Drop down--%>
@@ -109,9 +109,6 @@
                         </li>
                         <asp:ContentPlaceHolder ID="cphSubnav" runat="server">
                         </asp:ContentPlaceHolder>
-                        <li class="tab">
-                            <a href="#top">Return to Top</a>
-                        </li>
                     </ul>
                 </nav>
             </div>
@@ -131,7 +128,7 @@
         <div class="row-fluid">
             <div class="span5">
             </div>
-            <div class="span7">                
+            <div class="span7">
             </div>
         </div>
     </div>

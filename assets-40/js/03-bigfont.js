@@ -5,10 +5,19 @@
 
     function initializeTheSubnavigation()
     {
-        var items, li, a, href, text, headings, h1;
+        var ul, items, li, a, href, text, headings, h1;
 
         // get all the headings
         headings = $('section h1');
+
+        // only add the subnav if we have three or more sections
+        if (headings.length < 3)
+        {
+            return;
+        }
+
+        // get the subnav ul
+        ul = $('nav#sub-nav ul');
 
         headings.each(function (i) {
 
@@ -18,7 +27,7 @@
             // set the text and href
             text = h1.text().trim();
             href = encodeURI(text
-                .replace(/[!@#$%^&*()//]/g, '') // replace chars that mess up scrollspy
+                .replace(/['"!@#$%^&*()//]/g, '') // replace chars that mess up scrollspy
                 .replace(/\s+/g, '-') // replace white space with single dash
                 .toLowerCase());
 
@@ -26,15 +35,24 @@
             li = $('<li/>', { 'class': 'tab', });
             a = $('<a/>', { href: '#' + href, text: text });
             li.append(a);
-            $('li#placeholder').before(li);
+            ul.append(li);
 
             // set the section id
-            h1.parent('section').attr('id', href);
-
-            // refresh scrollspy if necessary
-
+            h1.parents('section').attr('id', href);
 
         });
+
+        // refresh scrollspy (maybe necessary)
+        $('[data-spy="scroll"]').each(function () {
+            $(this).scrollspy('refresh');
+        });
+
+        // create and append the return to top link
+        li = $('<li/>', { 'class': 'tab', });
+        a = $('<a/>', { href: '#top', text: 'Return to Top' });
+        li.append(a);
+        ul.append(li);
+
     }
 
     function addHorizontalRuleAfterEachSection()
