@@ -8,6 +8,7 @@
     </h1>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
+    <li class="tab"><a href="#welcome">Welcome</a></li>
     <li class="tab"><a href="#services">Services</a></li>
     <li class="tab"><a href="#about">About</a></li>
     <li class="tab"><a href="#contact">Contact</a></li>
@@ -19,12 +20,7 @@
             We’ve been in business since 1978, when Dave purchased the business and equipment from Norman Twa, 
             who trained him and got him started. We are courteous, friendly, reliable, well-trained, fully insured,
             and up to date with WCB, Transport Canada, and the Mines, Energy and Explosives requirements thereof. 
-        </p>
-        <figure class="fig-awesome">
-            <img src="../assets-40/img/tamrock.JPG" />
-            <figcaption><strong>We Love the Tamrock</strong></figcaption>
-        </figure>
-        
+        </p>        
     </section>
     <section id="services">
         <h2>Services</h2>

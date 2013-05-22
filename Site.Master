@@ -37,7 +37,6 @@
                                 <li class=""><a href="http://www.davesblasting.ca/equipment">Equipment</a></li>
                                 <li class=""><a href="http://www.davesblasting.ca/people">People</a></li>
                                 <li class=""><a href="http://www.davesblasting.ca/safety">Safety</a></li>
-                                <li class=""><a href="http://www.davesblasting.ca/rates">Rates</a></li>
                             </ul>
                         </li>
                         <%--End drop down--%>
@@ -45,7 +44,6 @@
                         <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">More
                             About Us <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li class=""><a href="http://www.davesblasting.ca/community">Community Projects</a></li>
                                 <li class=""><a href="http://www.davesblasting.ca/photos-and-videos">Photos & Videos</a></li>
                                 <li class=""><a href="http://www.davesblasting.ca/shop">Shop & Shwag</a></li>
                                 <li class=""><a href="http://www.davesblasting.ca/faqs">FAQs</a> </li>
@@ -107,10 +105,13 @@
                             <a href="tel:+1-250-537-2618"><i class="icon-bell"></i>250-537-2618 (Ph/Fax)</a>
                         </li>
                         <li class="tab contact">
-                            <a href="mailto:dave@davesblasting.com"><i class="icon-envelope"></i>dave@davesblasting.com</a>
+                            <a href="mailto:info@davesblasting.com"><i class="icon-envelope"></i>info@davesblasting.com</a>
                         </li>
                         <asp:ContentPlaceHolder ID="cphSubnav" runat="server">
                         </asp:ContentPlaceHolder>
+                        <li class="tab">
+                            <a href="#top">Return to Top</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -130,8 +131,7 @@
         <div class="row-fluid">
             <div class="span5">
             </div>
-            <div class="span7">
-                <a class="btn btn-primary" href="#top">Return to Top</a>
+            <div class="span7">                
             </div>
         </div>
     </div>

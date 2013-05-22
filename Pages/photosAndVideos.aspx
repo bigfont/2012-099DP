@@ -16,7 +16,7 @@
         <figure class="fig-video">
             <figcaption>
                 <strong>Tidy Blast</strong>
-                <p>Lots of popcorn results in a tidy little pile.</p>
+                <p>A blast with lots of "popcorn" can still result in a tidy little pile.</p>
             </figcaption>
             <video width="480px" height="360px" controls>
 
@@ -31,7 +31,7 @@
         <figure class="fig-video">
             <figcaption>
                 <strong>How Not to Be Seen</strong>
-                <p>A classic Monty Python sketch which involves blasting.</p>
+                <p>This classic Monty Python sketch just happens to involve blasting.</p>
             </figcaption>
             <iframe width="480px" height="360px" src="http://www.youtube.com/embed/zekiZYSVdeQ" frameborder="0"></iframe>
         </figure>

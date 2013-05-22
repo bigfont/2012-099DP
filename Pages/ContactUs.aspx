@@ -21,7 +21,7 @@
             Canada, V8K 1N4<br>
         </address>
         <address class="well">
-            <a href="mailto:dave@davesblasting.com"><i class="icon-envelope"></i>dave@davesblasting.com</a><br>
+            <a href="mailto:info@davesblasting.com"><i class="icon-envelope"></i>info@davesblasting.com</a><br>
         </address>
     </section>
     <section id="phone-fax">

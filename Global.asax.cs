@@ -53,7 +53,6 @@ namespace DavesBlasting
         /// </remarks>        
         protected void RegisterRoutes()
         {
-            RegisterRoute("community", "community", "~/pages/communityProjects.aspx");
             RegisterRoute("contact", "contact", "~/pages/contactUs.aspx");
             RegisterRoute("home", "home", "~/pages/default.aspx");
             RegisterRoute("equipment", "equipment", "~/pages/equipment.aspx");
@@ -61,7 +60,6 @@ namespace DavesBlasting
             RegisterRoute("links", "links", "~/pages/links.aspx");
             RegisterRoute("people", "people", "~/pages/people.aspx");
             RegisterRoute("photos", "photos-and-videos", "~/pages/photosAndVideos.aspx");
-            RegisterRoute("rates", "rates", "~/pages/ratesAndPayment.aspx");
             RegisterRoute("safety", "safety", "~/pages/safety.aspx");
             RegisterRoute("shop", "shop", "~/pages/shopAndShwag.aspx");
             RegisterRoute("skills", "skills", "~/pages/skillsAndExperience.aspx");

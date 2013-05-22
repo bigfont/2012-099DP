@@ -113,7 +113,6 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="lib\CodeScales.Http.dll" />
-    <Content Include="pages\communityProjects.aspx" />
     <Content Include="pages\contactUs.aspx" />
     <Content Include="pages\default.aspx" />
     <Content Include="pages\equipment.aspx" />
@@ -121,7 +120,6 @@
     <Content Include="pages\links.aspx" />
     <Content Include="pages\people.aspx" />
     <Content Include="pages\photosAndVideos.aspx" />
-    <Content Include="pages\ratesAndPayment.aspx" />
     <Content Include="pages\safety.aspx" />
     <Content Include="pages\shopAndShwag.aspx" />
     <Content Include="pages\skillsAndExperience.aspx" />
@@ -143,13 +141,6 @@
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="pages\communityProjects.aspx.cs">
-      <DependentUpon>communityProjects.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\communityProjects.aspx.designer.cs">
-      <DependentUpon>communityProjects.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\contactUs.aspx.cs">
       <DependentUpon>contactUs.aspx</DependentUpon>
@@ -199,13 +190,6 @@
     </Compile>
     <Compile Include="pages\photosAndVideos.aspx.designer.cs">
       <DependentUpon>photosAndVideos.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pages\ratesAndPayment.aspx.cs">
-      <DependentUpon>ratesAndPayment.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\ratesAndPayment.aspx.designer.cs">
-      <DependentUpon>ratesAndPayment.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\safety.aspx.cs">
       <DependentUpon>safety.aspx</DependentUpon>
