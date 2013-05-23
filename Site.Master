@@ -6,6 +6,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dave's Blasting</title>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-41192000-1', 'davesblasting.com');
+        ga('send', 'pageview');
+
+    </script>
     <link href="/assets-55/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="/assets-55/css/responsive.css" rel="stylesheet" type="text/css" />
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
@@ -16,6 +28,7 @@
     <![endif]-->
     <asp:ContentPlaceHolder ID="cphHead" runat="server">
     </asp:ContentPlaceHolder>
+
 </head>
 <body class="" data-spy="scroll" data-target="#sub-nav" data-offset="50">
     <%--Navbar--%>
@@ -61,15 +74,15 @@
                         <div class="carousel-inner">
                             <div class="active item">
                                 <%--<div class="active item img-polaroid img-rounded">--%>
-                                <img src="../assets-55/img/main-slideshow-1.jpg" />
+                                <img src="../assets-55/img/main-slideshow-1.jpg" alt="" />
                             </div>
                             <div class="item">
                                 <%--<div class="item img-polaroid img-rounded">--%>
-                                <img src="../assets-55/img/main-slideshow-2.jpg" />
+                                <img src="../assets-55/img/main-slideshow-2.jpg" alt=""  />
                             </div>
                             <div class="item">
                                 <%--<div class="item img-polaroid img-rounded">--%>
-                                <img src="../assets-55/img/main-slideshow-3.jpg" />
+                                <img src="../assets-55/img/main-slideshow-3.jpg" alt=""  />
                             </div>
                         </div>
                     </div>
