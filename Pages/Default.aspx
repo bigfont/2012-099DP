@@ -15,7 +15,7 @@
         <p>
             We’ve been in business since 1978, when Dave purchased the business and equipment from Norman Twa, 
             who trained him and got him started. We are courteous, friendly, reliable, well-trained, fully insured,
-            and up to date with WCB, Transport Canada, and the Mines, Energy and Explosives requirements thereof. 
+            and up to date with WorkSafeBC, Transport Canada, and the Mines, Energy and Explosives requirements thereof. 
         </p>        
     </section>
     <section>

@@ -13,9 +13,7 @@
         <h1>Safety Certifications
         </h1>
         <ul class="icons-ul">
-            <li><i class="icon-li icon-medkit"></i>All of our staff are covered under
-                <abbr title="Workers Compensation Board">WCB</abbr>
-                (#244276.)</li>
+            <li><i class="icon-li icon-medkit"></i>All of our staff are covered under WorkSafeBC (#244276.)</li>
             <li><i class="icon-li icon-medkit"></i>All of our crew are
                 <abbr title="Transportation of Dangerous Goods">TDG</abbr>
                 certified.</li>
@@ -25,9 +23,7 @@
             <li><i class="icon-li icon-medkit"></i>We have an
                 <abbr title="Emergency Response Assistance Plan">ERAP</abbr>
                 in place.</li>
-            <li><i class="icon-li icon-medkit"></i>We have three licenced
-                <abbr title="Workers Compensation Board">WCB</abbr>
-                Certified Blasters on staff.</li>
+            <li><i class="icon-li icon-medkit"></i>We have three licenced WorkSafeBC Certified Blasters on staff.</li>
             <li><i class="icon-li icon-medkit"></i>A BC Hydro environmental impact mitigation plan is in place.</li>
             <li><i class="icon-li icon-medkit"></i>We are fully insured (confirmation available upon request.)</li>
         </ul>
@@ -36,9 +32,7 @@
         <h1>Safety Policies
         </h1>
         <ul class="icons-ul">
-            <li><i class="icon-li icon-medkit"></i>We meet or exceed
-                <abbr title="Workers Compensation Board">WCB</abbr>
-                and BC Hydro safety requirements.</li>
+            <li><i class="icon-li icon-medkit"></i>We meet or exceed WorkSafeBC and BC Hydro safety requirements.</li>
             <li><i class="icon-li icon-medkit"></i>All of our crew wear appropriate safety gear.</li>
             <li><i class="icon-li icon-medkit"></i>For example, we wear high visibility vests, hard hats, ear protection, respiratory protection masks (respire). </li>
         </ul>
