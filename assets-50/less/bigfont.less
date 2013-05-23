@@ -8,26 +8,25 @@
 @import "bigfont-header.less";
 @import "bigfont-main-and-footer-content.less";
 @import "bigfont-google-map.less";
-@import "bigfont-imgs.less";
-@import "bigfont-responsive-misc.less";
+@import "bigfont-media.less";
+@import "bigfont-responsive.less";
 
 // ----------------------------
 // layout
 // ----------------------------
+
+
 body {
     padding: 0; // un-pad the body
-    > div.navbar {
-        max-width: 1350px;
-        margin: auto;
-
-        .brand > i {
-            color:@white;
-        }
-    }
 }
+
 // ----------------------------
 // typography
 // ----------------------------
+i.icon-li {
+    color: @secondaryColorB;
+}
+
 strong {
     color: @headingsColor;
 }
@@ -72,4 +71,12 @@ p.equipment-list {
     span {
         color: @secondaryColorB;
     }
+}
+
+.brand > i {
+    color: @white;
+}
+
+.thumbnail, .img-polaroid {
+    border-color: @secondaryColorA !important;
 }

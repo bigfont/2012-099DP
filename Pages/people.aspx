@@ -15,7 +15,7 @@
         <div class="media">
             <a class="pull-left" href="#">
                 <div>
-                    <img class="img-polaroid img-rounded" src="../assets-45/img/headshot-dave.jpg" />
+                    <img class="img-polaroid img-rounded" src="../assets-50/img/headshot-dave.jpg" />
                 </div>
             </a>
             <div class="media-body">
@@ -29,7 +29,7 @@
         <div class="media">
             <a class="pull-left" href="#">
                 <div>
-                    <img class="img-polaroid img-rounded" src="../assets-45/img/headshot-terry.jpg" />
+                    <img class="img-polaroid img-rounded" src="../assets-50/img/headshot-terry.jpg" />
                 </div>
             </a>
             <div class="media-body">
@@ -51,7 +51,7 @@
         </p>
         <ul class="thumbnails">
             <li class="span6"><a href="#" class="thumbnail">
-                <img src="../assets-45/img/crew.jpg" />
+                <img src="../assets-50/img/crew.jpg" />
             </a></li>
             <li class="span3"><a href="#" class="thumbnail">
                 <img src="http://lorempixel.com/480/480/people/5" />

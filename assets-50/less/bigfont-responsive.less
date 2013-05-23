@@ -5,14 +5,17 @@
 ------------------------- */
 @media (min-width:@htmlMaxWidth) {
 
-    hgroup h1:after {
-        // for testing
+    html, div.navbar {
+        width: 95%;
+        max-width: @htmlMaxWidth;
+        margin: auto;
     }
 
     // add a background html image only when it will be visible
     html {
-        background-image: url('/assets-45/img/html-background.png');
+        background-image: url('/assets-50/img/html-background.png');
     }
+
     // affix the header content and set its width
     header#header-content {
         hgroup.affix {
@@ -40,7 +43,7 @@
                 // 2. Resize the viewport to @htmlMaxWidth
                 // 3. Use Firebug to determine the current width of nav.affix
                 // 4. Paste that width here:
-                width: 517.8px;
+                width: 491px;
             }
         }
     }
@@ -50,8 +53,14 @@
 ------------------------- */
 @media (min-width:981px) and (max-width:@htmlMaxWidth) {
 
-    hgroup h1:after {
-        // for testing
+    html, div.navbar {
+        width: 90%;
+        margin: auto;
+    }
+
+    // add a background html image only when it will be visible
+    html {
+        background-image: url('/assets-50/img/html-background.png');
     }
 
     div.navbar-fixed-top {
@@ -59,6 +68,7 @@
             padding-right: 6px;
             font-size: 16px;
         }
+
         div#main-nav {
 
             ul.nav {
@@ -96,6 +106,7 @@
 /* After Navbar Collapses and Before Spans Stack
 ------------------------- */
 @media (max-width:980px) {
+
     body {
         margin-top: 0;
     }
@@ -124,7 +135,7 @@
 
             &.affix {
                 margin: 0;
-                top:0px;
+                top: 0px;
                 .bigfont-spanX(@navSpanX, @fluidGridColumnWidth768, @fluidGridGutterWidth768);
             }
         }
@@ -136,7 +147,8 @@
 @media (max-width:767px) {
 
     h1 {
-        font-size:44px;
+        font-size: 30px;
+        line-height: 40px;
     }
 
     .navbar {
@@ -151,8 +163,8 @@
         position: static;
 
         article > section, nav {
-            margin:0;
-            padding-top:40px;
+            margin: 0;
+            padding-top: 40px;
 
             &.affix {
                 width: auto;
@@ -163,35 +175,4 @@
             }
         }
     }
-}
-
-
-/* Specific Devices
-++++++++++++++++++++++++++++++++++++++++++ */
-
-/* Desktop large
-------------------------- */
-@media (min-width: 1200px) {
-}
-
-/* Desktop
-------------------------- */
-@media (max-width: 980px) {
-}
-
-/* Tablet to desktop
-------------------------- */
-@media (min-width: 768px) and (max-width: 980px) {
-    #contact-card-vertical;
-}
-
-/* Tablet
-------------------------- */
-@media (max-width: 768px) {
-}
-
-/* Landscape phones and lower
-------------------------- */
-@media (max-width: 480px) {
-    #contact-card-vertical;
 }

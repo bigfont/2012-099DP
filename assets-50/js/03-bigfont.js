@@ -3,10 +3,27 @@
     'use strict';
     /*global $:false, document:false, window:false */
 
-    function initializeTheEquipmentList()
-    {        
-        if (window.location.toString().toLowerCase().indexOf("equipment") >= 0)
-        {
+    function initializeVideoResizing() {
+
+        $(window).resize(function () {
+
+            var video, aspectRatio, height, width;
+            aspectRatio = 2 / 3; // equiv of 3:2 aspect ratio
+            width = $('article').width() * 80 / 100;
+            height = width * aspectRatio;
+            video = $('.video');
+            video.width(width);
+            video.height(height);
+
+
+        });
+
+        $(window).resize();
+
+    }
+
+    function initializeTheEquipmentList() {
+        if (window.location.toString().toLowerCase().indexOf("equipment") >= 0) {
             var stringToAppend, text, items;
 
             items = $('strong.equipment-item');
@@ -28,16 +45,14 @@
         }
     }
 
-    function initializeTheSubnavigation()
-    {
+    function initializeTheSubnavigation() {
         var ul, items, li, a, icon, href, text, headings, h1;
 
         // get all the headings
         headings = $('section h1');
 
         // only add the subnav if we have two or more sections
-        if (headings.length < 2)
-        {
+        if (headings.length < 2) {
             return;
         }
 
@@ -84,14 +99,12 @@
 
     }
 
-    function addHorizontalRuleAfterEachSection()
-    {
+    function addHorizontalRuleAfterEachSection() {
         var horizontalRule = $('<hr/>');
         $('section').after(horizontalRule);
     }
 
-    function initializeTheCarousel()
-    {
+    function initializeTheCarousel() {
         $('.carousel').carousel({
             interval: 5000
         });
@@ -100,10 +113,10 @@
     $(document).ready(function () {
 
         initializeTheCarousel();
-        addHorizontalRuleAfterEachSection();
         initializeTheSubnavigation();
         initializeTheEquipmentList();
-
+        initializeVideoResizing();
+        // addHorizontalRuleAfterEachSection();
     });
 
-} ());
+}());
