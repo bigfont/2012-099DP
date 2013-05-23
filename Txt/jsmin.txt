@@ -1,6 +1,6 @@
 ﻿
 
-cd C:\Users\Shaun\Documents\@GitHub\DavesBlasting\assets-50\js
+cd C:\Users\Shaun\Documents\@GitHub\DavesBlasting\assets-55\js
 
 jsmin <01-jquery.js> 01-jquery.min.js
 jsmin <02-bootstrap.js> 02-bootstrap.min.js

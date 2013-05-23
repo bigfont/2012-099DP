@@ -6,10 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dave's Blasting</title>
-    <link href="/assets-50/css/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="/assets-50/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="/assets-55/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="/assets-55/css/responsive.css" rel="stylesheet" type="text/css" />
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
-    <link href="/assets-50/css/bigfont.css" rel="stylesheet" type="text/css" />
+    <link href="/assets-55/css/bigfont.css" rel="stylesheet" type="text/css" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -61,15 +61,15 @@
                         <div class="carousel-inner">
                             <div class="active item">
                                 <%--<div class="active item img-polaroid img-rounded">--%>
-                                <img src="../assets-50/img/main-slideshow-1.jpg" />
+                                <img src="../assets-55/img/main-slideshow-1.jpg" />
                             </div>
                             <div class="item">
                                 <%--<div class="item img-polaroid img-rounded">--%>
-                                <img src="../assets-50/img/main-slideshow-2.jpg" />
+                                <img src="../assets-55/img/main-slideshow-2.jpg" />
                             </div>
                             <div class="item">
                                 <%--<div class="item img-polaroid img-rounded">--%>
-                                <img src="../assets-50/img/main-slideshow-3.jpg" />
+                                <img src="../assets-55/img/main-slideshow-3.jpg" />
                             </div>
                         </div>
                     </div>
@@ -128,9 +128,9 @@
             </div>
         </div>
     </div>
-    <script src="/assets-50/js/01-jquery.min.js" type="text/javascript"></script>
-    <script src="/assets-50/js/02-bootstrap.min.js" type="text/javascript"></script>
-    <script src="/assets-50/js/03-bigfont.min.js" type="text/javascript"></script>
-    <script src="/assets-50/js/04-holder.min.js" type="text/javascript"></script>
+    <script src="/assets-55/js/01-jquery.min.js" type="text/javascript"></script>
+    <script src="/assets-55/js/02-bootstrap.min.js" type="text/javascript"></script>
+    <script src="/assets-55/js/03-bigfont.min.js" type="text/javascript"></script>
+    <script src="/assets-55/js/04-holder.min.js" type="text/javascript"></script>
 </body>
 </html>
