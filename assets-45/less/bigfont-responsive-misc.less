@@ -73,27 +73,20 @@
         }
     }
 
-
-
-    // affix the header content and set its width
-    header#header-content {
-        hgroup.affix {
-            top: @navbarHeight;
-            width: 100%;
-        }
-    }
-
     div#main-content {
-        // add top padding for sub navigation intra page navigation
+        // add top padding for sub navigation
         article > section {
-            padding-top: @navbarHeight + @hgroupHeight + 20px;
+            padding-top: @navbarHeight + 20px;
+            margin-top: @hgroupHeight;
         }
 
         nav {
-            padding-top: @navbarHeight + @hgroupHeight;
+            padding-top: @navbarHeight + 20px;
+            margin-top: @hgroupHeight;
 
             &.affix {
-                top: 20px;
+                padding: 0;
+                top: 0;
                 .bigfont-spanX(@navSpanX, @fluidGridColumnWidth, @fluidGridGutterWidth);
             }
         }
@@ -119,16 +112,19 @@
     }
 
     div#main-content {
-        // add top padding for sub navigation intra page navigation
+        // add top padding for sub navigation
         article > section {
-            padding-top: @navbarHeight + @hgroupHeight + 20px;
+            padding-top: @navbarHeight;
+            margin-top: @hgroupHeight;
         }
 
         nav {
-            padding-top: @navbarHeight + @hgroupHeight;
+            padding-top: @navbarHeight;
+            margin-top: @hgroupHeight;
 
             &.affix {
-                top: 0;
+                margin: 0;
+                top:0px;
                 .bigfont-spanX(@navSpanX, @fluidGridColumnWidth768, @fluidGridGutterWidth768);
             }
         }
@@ -138,6 +134,11 @@
 /* After Spans Stack
 ------------------------- */
 @media (max-width:767px) {
+
+    h1 {
+        font-size:44px;
+    }
+
     .navbar {
         margin: 0;
     }
@@ -150,8 +151,8 @@
         position: static;
 
         article > section, nav {
-            padding: 0;
-            padding-top: 100px;
+            margin:0;
+            padding-top:40px;
 
             &.affix {
                 width: auto;
