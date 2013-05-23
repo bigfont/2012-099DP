@@ -4,6 +4,11 @@
 /* Max Html Width
 ------------------------- */
 @media (min-width:@htmlMaxWidth) {
+
+    hgroup h1:after {
+        // for testing
+    }
+
     // add a background html image only when it will be visible
     html {
         background-image: url('/assets-45/img/html-background.png');
@@ -20,16 +25,16 @@
         // add top padding for sub navigation
         article > section {
             padding-top: @navbarHeight + 20px;
-            margin-top:@hgroupHeight;
+            margin-top: @hgroupHeight;
         }
 
         nav {
             padding-top: @navbarHeight + 20px;
-            margin-top:@hgroupHeight;
+            margin-top: @hgroupHeight;
 
             &.affix {
-                padding:0;
-                top:0;
+                padding: 0;
+                top: 0;
                 // Derive this width
                 // 1. Open davesblasting.com in Firefox
                 // 2. Resize the viewport to @htmlMaxWidth
@@ -44,6 +49,32 @@
 /* Before Navbar Collapses
 ------------------------- */
 @media (min-width:981px) and (max-width:@htmlMaxWidth) {
+
+    hgroup h1:after {
+        // for testing
+    }
+
+    div.navbar-fixed-top {
+        a.brand {
+            padding-right: 6px;
+            font-size: 16px;
+        }
+        div#main-nav {
+
+            ul.nav {
+                li {
+                    a {
+                        padding-left: 6px;
+                        padding-right: 6px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
     // affix the header content and set its width
     header#header-content {
         hgroup.affix {

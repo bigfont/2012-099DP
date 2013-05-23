@@ -36,8 +36,7 @@
                         <li class=""><a href="../safety"><i class="icon-medkit">&nbsp;</i>Safety</a></li>
                         <li class=""><a href="../experience"><i class="icon-thumbs-up">&nbsp;</i>Experience</a></li>
                         <%--Drop down--%>
-                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="icon-info-sign">&nbsp;</i>More
-                            About Us <b class="caret"></b></a>
+                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="icon-info-sign">&nbsp;</i>More<b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li class=""><a href="../photos-and-videos">Photos & Videos</a></li>
                                 <li class=""><a href="../shop">Shop & Shwag</a></li>
