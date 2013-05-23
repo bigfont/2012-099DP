@@ -13,11 +13,9 @@
         <h1>Management
         </h1>
         <div class="media">
-            <a class="pull-left" href="#">
-                <div>
-                    <img class="img-polaroid img-rounded" src="../assets-50/img/headshot-dave.jpg" />
-                </div>
-            </a>
+            <div class="pull-left">
+                <img class="img-polaroid img-rounded" src="../assets-50/img/headshot-dave.jpg" />
+            </div>
             <div class="media-body">
                 <h4 class="media-heading">Dave Philips, BA (failed)
                 </h4>
@@ -27,11 +25,9 @@
             </div>
         </div>
         <div class="media">
-            <a class="pull-left" href="#">
-                <div>
-                    <img class="img-polaroid img-rounded" src="../assets-50/img/headshot-terry.jpg" />
-                </div>
-            </a>
+            <div class="pull-left">
+                <img class="img-polaroid img-rounded" src="../assets-50/img/headshot-terry.jpg" />
+            </div>
             <div class="media-body">
                 <h4 class="media-heading">Terry Bieman</h4>
                 <p>
@@ -50,21 +46,21 @@
             moon in. Lomo art party delectus wes anderson ut messenger bag. Laborum cred duis.
         </p>
         <ul class="thumbnails">
-            <li class="span6"><a href="#" class="thumbnail">
+            <li class="span6"><div class="thumbnail">
                 <img src="../assets-50/img/crew.jpg" />
-            </a></li>
-            <li class="span3"><a href="#" class="thumbnail">
+            </div></li>
+            <li class="span3"><div class="thumbnail">
                 <img src="http://lorempixel.com/480/480/people/5" />
-            </a></li>
-            <li class="span3"><a href="#" class="thumbnail">
+            </div></li>
+            <li class="span3"><div class="thumbnail">
                 <img src="http://lorempixel.com/480/480/people/6" />
-            </a></li>
-            <li class="span3"><a href="#" class="thumbnail">
+            </div></li>
+            <li class="span3"><div class="thumbnail">
                 <img src="http://lorempixel.com/480/480/people/7" />
-            </a></li>
-            <li class="span3"><a href="#" class="thumbnail">
+            </div></li>
+            <li class="span3"><div class="thumbnail">
                 <img src="http://lorempixel.com/480/480/people/8" />
-            </a></li>
+            </div></li>
         </ul>
     </section>
 </asp:Content>

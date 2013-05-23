@@ -1,4 +1,15 @@
-﻿// ----------------------------
+﻿
+// ----------------------------
+// body
+// ----------------------------
+
+
+body {
+    padding: 0; // un-pad the body
+}
+
+
+// ----------------------------
 // main and footer content
 // ----------------------------
 
@@ -18,8 +29,15 @@ div#main-content
 	position:relative;
 	bottom:@hgroupHeight;
 
+
+
 	article > section
 	{		
+        /* For scroll spy to work, 
+           the minimum cumulative height (exluding margin)
+           appears to be about 280px. */
+        min-height:220px;
+
 		clear:both;		
 		margin-bottom:20px;
 		h1

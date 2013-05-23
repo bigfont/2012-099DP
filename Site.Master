@@ -17,7 +17,7 @@
     <asp:ContentPlaceHolder ID="cphHead" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body class="" data-spy="scroll" data-target="#sub-nav" data-offset="40">
+<body class="" data-spy="scroll" data-target="#sub-nav" data-offset="50">
     <%--Navbar--%>
     <div class="navbar navbar navbar-fixed-top">
         <div class="navbar-inner">
@@ -90,7 +90,7 @@
         <div class="row-fluid">
             <%--Column--%>
             <div class="span5 affix-container">
-                <nav id="sub-nav" data-offset-top="320" data-spy="affix">
+                <nav id="sub-nav" data-offset-top="310" data-spy="affix">
                     <ul class="nav nav-tabs nav-stacked">
                         <li class="tab content"><a>Ready for real action?</a></li>
                         <li class="tab contact">

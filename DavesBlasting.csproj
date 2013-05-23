@@ -241,11 +241,12 @@
     <None Include="assets-50\less\bigfont-affix.less" />
     <None Include="assets-50\less\bigfont-mixins.less" />
     <None Include="assets-50\less\bigfont-responsive.less" />
+    <Content Include="assets-50\less\bigfont-typography.less" />
     <None Include="assets-50\less\bigfont-variables.less" />
     <None Include="assets-50\less\bigfont.less" />
     <None Include="assets-50\less\bootstrap\variables-orig.less" />
     <None Include="assets-50\less\bigfont-header.less" />
-    <None Include="assets-50\less\bigfont-main-and-footer-content.less" />
+    <None Include="assets-50\less\bigfont-layout.less" />
     <Content Include="assets-50\video\DavesBlasting.ogv" />
     <Content Include="assets-50\video\DavesBlasting.webm" />
     <Content Include="packages.config" />

@@ -5,8 +5,8 @@
 ------------------------- */
 @media (min-width:@htmlMaxWidth) {
 
+    // set the max width
     html, div.navbar {
-        width: 95%;
         max-width: @htmlMaxWidth;
         margin: auto;
     }
@@ -16,26 +16,14 @@
         background-image: url('/assets-50/img/html-background.png');
     }
 
-    // affix the header content and set its width
-    header#header-content {
-        hgroup.affix {
-            top: @navbarHeight;
-            width: @htmlMaxWidth;
-        }
-    }
-
     div#main-content {
-        // add top padding for sub navigation
-        article > section {
+        // add top padding for sections and subnav
+        article > section, nav {
             padding-top: @navbarHeight + 20px;
             margin-top: @hgroupHeight;
         }
-
-        nav {
-            padding-top: @navbarHeight + 20px;
-            margin-top: @hgroupHeight;
-
-            &.affix {
+            // set the nav position & width on affix
+            nav.affix {
                 padding: 0;
                 top: 0;
                 // Derive this width
@@ -43,9 +31,8 @@
                 // 2. Resize the viewport to @htmlMaxWidth
                 // 3. Use Firebug to determine the current width of nav.affix
                 // 4. Paste that width here:
-                width: 491px;
+                width: 518px;
             }
-        }
     }
 }
 
