@@ -4,7 +4,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="cphHead" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphHeader" runat="server">
-    <h1>Territory</h1>
+    <h1><i class="icon-map-marker">&nbsp;</i>Territory</h1>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphSubnav" runat="server">
     <li class="tab content"><a>Our base is on Salt Spring Island but our territory extends through the Gulf Islands with occasional forays into Vancouver Island.</a></li>

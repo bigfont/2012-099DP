@@ -116,6 +116,7 @@
     <Content Include="pages\contactUs.aspx" />
     <Content Include="pages\default.aspx" />
     <Content Include="pages\equipment.aspx" />
+    <Content Include="pages\experience.aspx" />
     <Content Include="pages\faqs.aspx" />
     <Content Include="pages\links.aspx" />
     <Content Include="pages\people.aspx" />
@@ -163,6 +164,13 @@
     </Compile>
     <Compile Include="pages\equipment.aspx.designer.cs">
       <DependentUpon>equipment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\experience.aspx.cs">
+      <DependentUpon>experience.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\experience.aspx.designer.cs">
+      <DependentUpon>experience.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\faqs.aspx.cs">
       <DependentUpon>faqs.aspx</DependentUpon>

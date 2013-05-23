@@ -14,23 +14,23 @@ nav#sub-nav > ul.nav-tabs {
 
     i.icon-chevron-right {
         float: right;
-        display: block;
-        margin-top: 12px;
+        margin-top:6px;
         opacity: 0.25; // this is an icon; its opacity fails on IE 8; that's OK.
     }
 
     li.tab {
         white-space: nowrap;
 
-        > a, > p {
+        a {
             margin-left: 5px;
             margin-right: 5px;
             padding: 2px 12px;
+            border-color:@secondaryColorA;
         }
 
         &.active > a {
             background: @secondaryColorA;
-            color: @black;
+            color:@black;
         }
 
         &.contact {
@@ -38,6 +38,11 @@ nav#sub-nav > ul.nav-tabs {
             i {
                 margin-right: 6px;
                 margin-top: 6px;
+                color: @primaryColor;
+            }
+
+            a {
+
             }
         }
 
@@ -47,8 +52,7 @@ nav#sub-nav > ul.nav-tabs {
 
             a, a:hover {
                 color: black;
-                background:white;
-                border-color:#FFC40D;
+                background: white;
             }
         }
     }

@@ -4,7 +4,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="cphHead" runat="server">
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphHeader" runat="server">
-    <h1>People</h1>
+    <h1><i class="icon-group">&nbsp;</i>People</h1>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
 </asp:Content>
@@ -22,7 +22,7 @@
                 <h4 class="media-heading">Dave Philips, BA (failed)
                 </h4>
                 <p>
-                    Words can not describe. He has been at this 35 years, and has now forgotten more than we ever want to learn. He has served as an expert witteness to the safe proccess of blasting in a criminal court of law.
+                    Words cannot describe. He has been at this 35 years, and has now forgotten more than we ever want to learn. He has served as an expert witness to the safe process of blasting in a criminal court of law. 
                 </p>
             </div>
         </div>
@@ -35,7 +35,7 @@
             <div class="media-body">
                 <h4 class="media-heading">Terry Bieman</h4>
                 <p>
-                    Precision masonry cutting and coring, mantanance. Chief technician on the Standing Babbas Stone Circle project. In his spare time he volunteers at the Salt Spring Search & Rescue.
+                    Precision masonry cutting and coring, maintenance. Chief technician on the Standing Babbas Stone Circle project. In his spare time he volunteers at the Salt Spring Search & Rescue.
                 </p>
             </div>
             <%--TODO Calum,Mike,Dougal,Jeff,Shasta,Steve--%>

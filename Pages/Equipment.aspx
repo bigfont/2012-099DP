@@ -4,13 +4,15 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="cphHead" runat="server">
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="cphHeader" runat="server">
-    <h1>Equipment</h1>
+    <h1><i class="icon-cogs">&nbsp;</i>Equipment</h1>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphSubnav" runat="server">
+    <li class="tab content">
+        <a><p class="equipment-list">To serve your needs, we have a wide array of equipment: </p></a>
+    </li>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphMainArticle" runat="server">
     <section>
-        <p class="equipment-list">We have a wide array of equipment to serve your needs: </p>
         <ul class="thumbnails">
             <li class="span5">
                 <div class="thumbnail">

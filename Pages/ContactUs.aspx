@@ -4,7 +4,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="cphHead" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphHeader" runat="server">
-    <h1>Contact
+    <h1><i class="icon-phone">&nbsp;</i>Contact
     </h1>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphSubnav" runat="server">

@@ -64,6 +64,8 @@ namespace DavesBlasting
             RegisterRoute("shop", "shop", "~/pages/shopAndShwag.aspx");
             RegisterRoute("services", "services", "~/pages/services.aspx");
             RegisterRoute("territory", "territory", "~/pages/territory.aspx");
+            RegisterRoute("experience", "experience", "~/pages/experience.aspx");
+
         }
         /// <summary>
         /// Add routes for each file in the pages directory

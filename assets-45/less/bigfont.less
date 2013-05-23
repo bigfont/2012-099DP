@@ -16,17 +16,15 @@
 // ----------------------------
 body {
     padding: 0; // un-pad the body
-}
-
-    body, body > div.navbar {
+    > div.navbar {
         max-width: 1350px;
         margin: auto;
+
+        .brand > i {
+            color:@white;
+        }
     }
-
-div#main-content {
-
 }
-
 // ----------------------------
 // typography
 // ----------------------------
@@ -68,4 +66,10 @@ address {
     text-align: center;
 }
 
-.equipment-list > span { color:@headingsColor; }
+p.equipment-list {
+    margin: 0;
+
+    span {
+        color: @secondaryColorB;
+    }
+}

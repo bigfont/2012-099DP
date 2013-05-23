@@ -30,7 +30,7 @@
 
     function initializeTheSubnavigation()
     {
-        var ul, items, li, a, href, text, headings, h1;
+        var ul, items, li, a, icon, href, text, headings, h1;
 
         // get all the headings
         headings = $('section h1');
@@ -56,9 +56,13 @@
                 .replace(/\s+/g, '-') // replace white space with single dash
                 .toLowerCase());
 
-            // create and append the li
+            // create 
             li = $('<li/>', { 'class': 'tab', });
             a = $('<a/>', { href: '#' + href, text: text });
+            icon = $('<i/>', { 'class': 'icon-chevron-right' });
+
+            // assemble
+            a.prepend(icon); // we need to prepend otherwise nonsense happens, hmmm.
             li.append(a);
             ul.append(li);
 
