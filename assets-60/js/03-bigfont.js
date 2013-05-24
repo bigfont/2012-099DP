@@ -9,6 +9,11 @@
         var a = $('[href="' + href + '"]');
         a.parents('li').addClass('active');
         a.addClass('active');
+
+        // hack to prevent scrollspy from impacting more than its target nav
+        $("ul.scrollspy-target li").on("activate", function () {
+            initializeNavbarCurrentPage();
+        });
     }
 
     function initializeVideoResizing() {

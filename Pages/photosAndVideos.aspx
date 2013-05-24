@@ -18,9 +18,9 @@
             </figcaption>
             <video class="video img-polaroid img-rounded" controls>
                 <%--Make sure to add a configuration > system.webServer > staticContent > mimeMap entry for .ogv AND .webm file extensions--%>
-                <source src="../assets-55/video/DavesBlasting.mp4" type="video/mp4" />
-                <source src="../assets-55/video/DavesBlasting.ogv" type="video/ogg" />
-                <source src="../assets-55/video/DavesBlasting.webm" type="video/webm" />
+                <source src="../assets-60/video/DavesBlasting.mp4" type="video/mp4" />
+                <source src="../assets-60/video/DavesBlasting.ogv" type="video/ogg" />
+                <source src="../assets-60/video/DavesBlasting.webm" type="video/webm" />
                 <p>Your browser can’t play HTML5 video.</p>
             </video>
         </figure>

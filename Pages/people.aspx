@@ -14,7 +14,7 @@
         </h1>
         <div class="media">
             <div class="pull-left">
-                <img class="img-polaroid img-rounded" src="../assets-55/img/headshot-dave.jpg" />
+                <img class="img-polaroid img-rounded" src="../assets-60/img/headshot-dave.jpg" />
             </div>
             <div class="media-body">
                 <h4 class="media-heading">Dave Philips, BA (failed)
@@ -26,7 +26,7 @@
         </div>
         <div class="media">
             <div class="pull-left">
-                <img class="img-polaroid img-rounded" src="../assets-55/img/headshot-terry.jpg" />
+                <img class="img-polaroid img-rounded" src="../assets-60/img/headshot-terry.jpg" />
             </div>
             <div class="media-body">
                 <h4 class="media-heading">Terry Bieman</h4>
@@ -47,7 +47,7 @@
         </p>
         <ul class="thumbnails">
             <li class="span6"><div class="thumbnail">
-                <img src="../assets-55/img/crew.jpg" />
+                <img src="../assets-60/img/crew.jpg" />
             </div></li>
             <li class="span3"><div class="thumbnail">
                 <img src="http://lorempixel.com/480/480/people/5" />
