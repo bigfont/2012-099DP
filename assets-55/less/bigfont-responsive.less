@@ -6,9 +6,15 @@
 @media (min-width:@htmlMaxWidth) {
 
     // set the max width
-    html, div.navbar {
+    html {
         max-width: @htmlMaxWidth;
         margin: auto;
+    }
+
+    div.navbar {
+        max-width: @htmlMaxWidth;
+        left:50%;
+        margin-left:-@htmlMaxWidth / 2;
     }
 
     // add a background html image only when it will be visible
