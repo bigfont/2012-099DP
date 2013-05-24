@@ -3,6 +3,14 @@
     'use strict';
     /*global $:false, document:false, window:false */
 
+    function initializeNavbarCurrentPage()
+    {
+        var href = '..' + window.location.pathname;
+        var a = $('[href="' + href + '"]');
+        a.parents('li').addClass('active');
+        a.addClass('active');
+    }
+
     function initializeVideoResizing() {
 
         $(window).resize(function () {
@@ -116,6 +124,7 @@
         initializeTheSubnavigation();
         initializeTheEquipmentList();
         initializeVideoResizing();
+        initializeNavbarCurrentPage();
         // addHorizontalRuleAfterEachSection();
     });
 

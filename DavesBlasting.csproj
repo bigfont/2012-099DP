@@ -240,6 +240,7 @@
     <Content Include="Site.Master" />
     <None Include="assets-55\less\bigfont-affix.less" />
     <None Include="assets-55\less\bigfont-mixins.less" />
+    <Content Include="assets-55\less\bigfont-navbar.less" />
     <None Include="assets-55\less\bigfont-responsive.less" />
     <Content Include="assets-55\less\bigfont-typography.less" />
     <None Include="assets-55\less\bigfont-variables.less" />

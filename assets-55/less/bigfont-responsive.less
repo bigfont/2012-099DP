@@ -26,7 +26,7 @@
         // add top padding for sections and subnav
         article > section, nav {
             padding-top: @navbarHeight + 20px;
-            margin-top: @hgroupHeight;
+            margin-top: @pageTitleHeight;
         }
             // set the nav position & width on affix
             nav.affix {
@@ -70,12 +70,12 @@
         // add top padding for sub navigation
         article > section {
             padding-top: @navbarHeight + 20px;
-            margin-top: @hgroupHeight;
+            margin-top: @pageTitleHeight;
         }
 
         nav {
             padding-top: @navbarHeight + 20px;
-            margin-top: @hgroupHeight;
+            margin-top: @pageTitleHeight;
 
             &.affix {
                 padding: 0;
@@ -98,23 +98,16 @@
         margin-bottom: 0;
     }
 
-    header#header-content {
-        hgroup.affix {
-            top: 0;
-            width: 100%;
-        }
-    }
-
     div#main-content {
         // add top padding for sub navigation
         article > section {
             padding-top: @navbarHeight;
-            margin-top: @hgroupHeight;
+            margin-top: @pageTitleHeight;
         }
 
         nav {
             padding-top: @navbarHeight;
-            margin-top: @hgroupHeight;
+            margin-top: @pageTitleHeight;
 
             &.affix {
                 margin: 0;

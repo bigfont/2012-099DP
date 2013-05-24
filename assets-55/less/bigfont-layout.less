@@ -13,47 +13,42 @@ body {
 // main and footer content
 // ----------------------------
 
-#main-content, #footer-content
-{
-	margin-left:10px;
-	margin-right:10px;
+#main-content, #footer-content {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 // ----------------------------
 // main content
 // ----------------------------
-div#main-content
-{	    
-	
-	// correct for the relatively placed hgroup
-	position:relative;
-	bottom:@hgroupHeight;
+div#main-content {
+    // correct for the relatively placed hgroup
+    position: relative;
+    bottom: @pageTitleHeight;
 
 
 
-	article > section
-	{		
+    article > section {
         /* For scroll spy to work, 
            the minimum cumulative height (exluding margin)
            appears to be about 280px. */
-        min-height:220px;
+        min-height: 220px;
+        clear: both;
+        margin-bottom: 20px;
 
-		clear:both;		
-		margin-bottom:20px;
-		h1
-		{
-			margin:0 0 20px 0;
-			padding:0;
-		}
-		div.media
-		{
-			margin-top:15px;
-		}
-		hgroup
-		{
-			padding-bottom:20px;
-		}
-	}
+        h1 {
+            margin: 0 0 20px 0;
+            padding: 0;
+        }
+
+        div.media {
+            margin-top: 15px;
+        }
+
+        div.page-title {
+            padding-bottom: 20px;
+        }
+    }
 }
 
 // ----------------------------
@@ -63,6 +58,10 @@ div#footer-content {
     // so that the subnav works for the bottom-most content, and
     // so that the contents still align on the bottom
     // tweak these numbers as appropriate
-    padding-top: 110px;
-    padding-bottom: 50px;
+    padding-top: 160px;
+    padding-bottom: 0;
+
+    p {
+        float: right;
+    }
 }
