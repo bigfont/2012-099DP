@@ -74,6 +74,8 @@
   <ItemGroup>
     <Content Include="assets-60\css\bigfont.css" />
     <Content Include="assets-60\css\bootstrap.css" />
+    <Content Include="assets-60\css\font-awesome-ie7.min.css" />
+    <Content Include="assets-60\css\font-awesome.min.css" />
     <Content Include="assets-60\css\responsive.css" />
     <Content Include="assets-60\img\crew.jpg" />
     <Content Include="assets-60\img\equipment-large-1.jpg" />
