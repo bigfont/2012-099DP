@@ -3,17 +3,18 @@
     'use strict';
     /*global $:false, document:false, window:false */
 
-    function initializeNavbarCurrentPage()
-    {
-        var href = '..' + window.location.pathname;
-        var a = $('[href="' + href + '"]');
+    function initializeNavbarCurrentPage() {
+        var href, a;
+        href = '..' + window.location.pathname;
+        a = $('[href="' + href + '"]');
         a.parents('li').addClass('active');
         a.addClass('active');
 
+        // TODO Get this working - it appears to freeze the browser.
         // hack to prevent scrollspy from impacting more than its target nav
-        $("ul.scrollspy-target li").on("activate", function () {
-            initializeNavbarCurrentPage();
-        });
+        //$("ul.scrollspy-target li").on("activate", function () {
+        //    initializeNavbarCurrentPage();
+        //});
     }
 
     function initializeVideoResizing() {
@@ -37,7 +38,7 @@
 
     function initializeTheEquipmentList() {
         if (window.location.toString().toLowerCase().indexOf("equipment") >= 0) {
-            var stringToAppend, text, items;
+            var stringToAppend, items;
 
             items = $('strong.equipment-item');
             stringToAppend = '';
@@ -47,8 +48,7 @@
 
                 if (i !== items.length - 1) {
                     stringToAppend += ', ';
-                }
-                else {
+                } else {
                     stringToAppend += '.';
                 }
             });
@@ -59,7 +59,7 @@
     }
 
     function initializeTheSubnavigation() {
-        var ul, items, li, a, icon, href, text, headings, h1;
+        var ul, li, a, icon, href, text, headings, h1;
 
         // get all the headings
         headings = $('section h1');
@@ -85,7 +85,7 @@
                 .toLowerCase());
 
             // create 
-            li = $('<li/>', { 'class': 'tab', });
+            li = $('<li/>', { 'class': 'tab' });
             a = $('<a/>', { href: '#' + href, text: text });
             icon = $('<i/>', { 'class': 'icon-chevron-right' });
 
@@ -105,16 +105,11 @@
         });
 
         // create and append the return to top link
-        li = $('<li/>', { 'class': 'tab', });
+        li = $('<li/>', { 'class': 'tab' });
         a = $('<a/>', { href: '#top', text: 'Return to Top' });
         li.append(a);
         ul.append(li);
 
-    }
-
-    function addHorizontalRuleAfterEachSection() {
-        var horizontalRule = $('<hr/>');
-        $('section').after(horizontalRule);
     }
 
     function initializeTheCarousel() {
