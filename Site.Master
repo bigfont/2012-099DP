@@ -75,15 +75,15 @@
                         <div class="carousel-inner">
                             <div class="active item">
                                 <%--<div class="active item img-polaroid img-rounded">--%>
-                                <img src="../assets-65/img/main-slideshow-1.jpg" alt="" />
+                                <img src="../assets-65/img/main-slideshow-1.png" alt="" />
                             </div>
                             <div class="item">
                                 <%--<div class="item img-polaroid img-rounded">--%>
-                                <img src="../assets-65/img/main-slideshow-2.jpg" alt="" />
+                                <img src="../assets-65/img/main-slideshow-2.png" alt="" />
                             </div>
                             <div class="item">
                                 <%--<div class="item img-polaroid img-rounded">--%>
-                                <img src="../assets-65/img/main-slideshow-3.jpg" alt="" />
+                                <img src="../assets-65/img/main-slideshow-3.png" alt="" />
                             </div>
                         </div>
                     </div>

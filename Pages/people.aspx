@@ -14,7 +14,7 @@
         </h1>
         <div class="media">
             <div class="pull-left">
-                <img class="img-polaroid img-rounded" src="../assets-65/img/headshot-dave.jpg" />
+                <img class="img-polaroid img-rounded" src="../assets-65/img/headshot-dave.png" />
             </div>
             <div class="media-body">
                 <h4 class="media-heading">Dave Philips, BA (failed)
@@ -26,7 +26,7 @@
         </div>
         <div class="media">
             <div class="pull-left">
-                <img class="img-polaroid img-rounded" src="../assets-65/img/headshot-terry.jpg" />
+                <img class="img-polaroid img-rounded" src="../assets-65/img/headshot-terry.png" />
             </div>
             <div class="media-body">
                 <h4 class="media-heading">Terry Bieman</h4>
@@ -46,21 +46,33 @@
             moon in. Lomo art party delectus wes anderson ut messenger bag. Laborum cred duis.
         </p>
         <ul class="thumbnails">
-            <li class="span6"><div class="thumbnail">
-                <img src="../assets-65/img/crew.jpg" />
-            </div></li>
-            <li class="span3"><div class="thumbnail">
-                <img src="http://lorempixel.com/480/480/people/5" />
-            </div></li>
-            <li class="span3"><div class="thumbnail">
-                <img src="http://lorempixel.com/480/480/people/6" />
-            </div></li>
-            <li class="span3"><div class="thumbnail">
-                <img src="http://lorempixel.com/480/480/people/7" />
-            </div></li>
-            <li class="span3"><div class="thumbnail">
-                <img src="http://lorempixel.com/480/480/people/8" />
-            </div></li>
+            <li class="span6">
+                <div class="thumbnail">
+                    <img src="../assets-65/img/crew.png" />
+                </div>
+            </li>
+            <li class="span3">
+                <div class="thumbnail">
+                    <img src="../assets-65/img/headshot_callum.png" />
+                </div>
+            </li>
+            <li class="span3">
+                <div class="thumbnail">
+                    <img src="../assets-65/img/headshot_steve.png" />
+
+                </div>
+            </li>
+            <li class="span3">
+                <div class="thumbnail">
+                    <img src="../assets-65/img/headshot_dog.png" />
+
+                </div>
+            </li>
+            <li class="span3">
+                <div class="thumbnail">
+                    <img src="../assets-65/img/headshot_who1.png" />
+                </div>
+            </li>
         </ul>
     </section>
 </asp:Content>
