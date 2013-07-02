@@ -16,13 +16,7 @@
                 <strong>Tidy Blast</strong>
                 <p>A blast with lots of "popcorn" still results in a tidy little pile.</p>
             </figcaption>
-            <video class="video img-polaroid img-rounded" controls>
-                <%--Make sure to add a configuration > system.webServer > staticContent > mimeMap entry for .ogv AND .webm file extensions--%>
-                <source src="../assets-65/video/DavesBlasting.mp4" type="video/mp4" />
-                <source src="../assets-65/video/DavesBlasting.ogv" type="video/ogg" />
-                <source src="../assets-65/video/DavesBlasting.webm" type="video/webm" />
-                <p>Your browser can’t play HTML5 video.</p>
-            </video>
+            <iframe class="video img-polaroid img-rounded" src="http://player.vimeo.com/video/69576681" frameborder="0"></iframe>
         </figure>
         <figure>
             <figcaption>
