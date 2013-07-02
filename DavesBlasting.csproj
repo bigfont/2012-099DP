@@ -74,8 +74,6 @@
   <ItemGroup>
     <Content Include="assets-65\css\bigfont.css" />
     <Content Include="assets-65\css\bootstrap.css" />
-    <Content Include="assets-65\css\font-awesome-ie7.min.css" />
-    <Content Include="assets-65\css\font-awesome.min.css" />
     <Content Include="assets-65\css\responsive.css" />
     <Content Include="assets-65\font-awesome\css\font-awesome-ie7.css" />
     <Content Include="assets-65\font-awesome\css\font-awesome-ie7.min.css" />
@@ -134,7 +132,6 @@
     <Content Include="assets-65\video\VideoEditingInstructions.txt" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="lib\CodeScales.Http.dll" />
     <Content Include="pages\contactUs.aspx" />
     <Content Include="pages\default.aspx" />
     <Content Include="pages\equipment.aspx" />
