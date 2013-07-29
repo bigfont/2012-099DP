@@ -251,7 +251,6 @@
   <ItemGroup>
     <Content Include="Site.Master" />
     <Content Include="packages.config" />
-    <Content Include="Smtp.config" />
     <Content Include="assets-65\less\bigfont-affix.less" />
     <Content Include="assets-65\less\bigfont-affix.less.bak" />
     <Content Include="assets-65\less\bigfont-google-map.less" />
@@ -328,6 +327,10 @@
     <Content Include="assets-65\font-awesome\less\path.less" />
     <Content Include="assets-65\font-awesome\less\variables.less" />
     <None Include="Properties\PublishProfiles\blasting.bigfont.ca.pubxml" />
+    <None Include="Properties\PublishProfiles\davesblasting - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\davesblasting - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\davesblasting1 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\davesblasting1 - Web Deploy.pubxml" />
     <None Include="txt\DBlasting_Site_Map_v1.pdf" />
   </ItemGroup>
   <PropertyGroup>
