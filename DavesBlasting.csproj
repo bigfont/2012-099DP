@@ -312,7 +312,6 @@
     <Content Include="assets-65\video\DavesBlasting.ogv" />
     <Content Include="assets-65\video\DavesBlasting.webm" />
     <Content Include="assets-65\video\DavesBlasting.wlmp" />
-    <Content Include="assets-65\video\Thumbs.db" />
     <Content Include="assets-65\font-awesome\font\fontawesome-webfont.eot" />
     <Content Include="assets-65\font-awesome\font\fontawesome-webfont.ttf" />
     <Content Include="assets-65\font-awesome\font\fontawesome-webfont.woff" />
