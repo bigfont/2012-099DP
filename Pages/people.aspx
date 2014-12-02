@@ -24,18 +24,6 @@
                 </p>
             </div>
         </div>
-        <div class="media">
-            <div class="pull-left">
-                <img class="img-polaroid img-rounded" src="../assets-65/img/headshot-terry.png" />
-            </div>
-            <div class="media-body">
-                <h4 class="media-heading">Terry Bieman</h4>
-                <p>
-                    Precision masonry cutting and coring, maintenance. Chief technician on the Standing Babbas Stone Circle project. In his spare time he volunteers at the Salt Spring Search & Rescue.
-                </p>
-            </div>
-            <%--TODO Calum,Mike,Dougal,Jeff,Shasta,Steve--%>
-        </div>
     </section>
     <section id="team">
         <h1>Blasting Team
