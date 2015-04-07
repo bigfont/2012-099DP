@@ -38,10 +38,6 @@
             <a href="tel:+1-250-537-2618"><i class="icon-bell"></i>250-537-2618</a>
         </address>
         <address class="well">
-            <strong>For real action call Callum</strong><br>
-            <a href="tel:+1-250-538-8640"><i class="icon-bell"></i>250-538-8640</a>
-        </address>
-        <address class="well">
             <strong>For mechanical call Terry</strong><br>
             <a href="tel:+1-250-538-7207"><i class="icon-bell"></i>250-538-7207</a>
         </address>
